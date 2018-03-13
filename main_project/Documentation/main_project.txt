@@ -193,6 +193,12 @@ Module "osa1"      (component fsl_os_abstraction)
    - osa1_OSA_Init -Initializes the RTOS services.
    - osa1_OSA_Start -Starts the RTOS.
 
+Module "Task1"     (component OS_Task)
+   - Task1_Init -Creates and starts a task.
+
+Module "Task2"     (component OS_Task)
+   - Task2_Init -Creates and starts a task.
+
 Module "Cpu"       (component MKL25Z128LK4_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 
                 called from startup_device file.

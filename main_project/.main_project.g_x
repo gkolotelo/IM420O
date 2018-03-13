@@ -113,102 +113,108 @@
   </ToolchainSettings>
   <GeneratedFilesList>
     <GeneratedByPE>
-      <File Name="SDK/platform/devices/MKL25Z4/include/MKL25Z4_features.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162375" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162157" FileType="1048576" />
-      <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162203" FileType="1048576" />
-      <File Name="ProjectInfo.xml" FileDate="2018-03-06, 15:36:24" FileAge="1520361384353" FileType="45637" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813257" FileType="1048576" CompNumb="1" />
+      <File Name="Sources/os_tasks.h" FileDate="2018-03-13, 14:11:08" FileAge="1520961068078" FileType="131328" />
+      <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="6" />
+      <File Name="Sources/os_tasks.c" FileDate="2018-03-13, 14:11:08" FileAge="1520961068078" FileType="131328" />
+      <File Name="SDK/rtos/FreeRTOS/src/timers.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/devices/MKL25Z4/startup/gcc/startup_MKL25Z4.S" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="0" />
+      <File Name="Documentation/main_project.txt" FileDate="2018-03-13, 14:11:08" FileAge="1520961068641" FileType="3072" />
+      <File Name="Generated_Code/pin_init.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="7" />
+      <File Name="Sources/Events.h" FileDate="2018-03-13, 14:11:08" FileAge="1520961068172" FileType="131328" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813257" FileType="1048576" CompNumb="1" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="45637" CompNumb="1" />
+      <File Name="Generated_Code/pin_init.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="7" />
+      <File Name="Sources/Events.c" FileDate="2018-03-13, 14:11:08" FileAge="1520961068172" FileType="131328" />
+      <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="11" />
+      <File Name="ProjectInfo.xml" FileDate="2018-03-13, 14:11:08" FileAge="1520961068625" FileType="45637" />
+      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/CMSIS/Include/core_cm0plus.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813257" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
       <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
-      <File Name="Sources/main.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383993" FileType="128" />
-      <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162313" FileType="1048576" />
-      <File Name="Generated_Code/free_rtos.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383962" FileType="45637" CompNumb="16" />
-      <File Name="Generated_Code/free_rtos.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383962" FileType="45637" CompNumb="16" />
-      <File Name="Generated_Code/osa1.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383978" FileType="45637" CompNumb="12" />
-      <File Name="SDK/rtos/FreeRTOS/src/list.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383806" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/FreeRTOS.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383681" FileType="1048576" />
-      <File Name="Generated_Code/osa1.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383978" FileType="45637" CompNumb="12" />
-      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162266" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/port/gcc/portmacro.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383759" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/croutine.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383665" FileType="1048576" />
-      <File Name="SDK/platform/devices/MKL25Z4/include/MKL25Z4_extension.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162375" FileType="1048576" />
-      <File Name="Documentation/main_project_Settings.xml" FileDate="2018-03-06, 15:32:42" FileAge="1520361162594" FileType="3072" />
-      <File Name="Generated_Code/clockMan1.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162532" FileType="45637" CompNumb="2" />
-      <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162344" FileType="1048576" />
-      <File Name="SDK/platform/devices/MKL25Z4/startup/gcc/startup_MKL25Z4.S" FileDate="2018-03-06, 15:32:42" FileAge="1520361162391" FileType="1048576" />
-      <File Name="Generated_Code/clockMan1.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162516" FileType="45637" CompNumb="2" />
-      <File Name="SDK/rtos/FreeRTOS/include/queue.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383712" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162250" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162203" FileType="1048576" />
-      <File Name="SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162188" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162157" FileType="1048576" />
-      <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162266" FileType="1048576" />
-      <File Name="SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162172" FileType="1048576" />
-      <File Name="Generated_Code/hardware_init.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162485" FileType="45637" CompNumb="7" />
-      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_free_rtos.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383837" FileType="1048576" />
-      <File Name="Generated_Code/SDK/rtos/FreeRTOS/config/FreeRTOSConfig.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383962" FileType="45637" CompNumb="16" />
-      <File Name="Sources/Events.h" FileDate="2018-03-06, 15:36:24" FileAge="1520361384024" FileType="131328" />
-      <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162250" FileType="1048576" />
-      <File Name="Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162516" FileType="45637" CompNumb="2" />
-      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162328" FileType="1048576" />
-      <File Name="Sources/Events.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162407" FileType="131328" />
-      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2018-03-06, 15:32:42" FileAge="1520361162453" FileType="8" CompNumb="1" />
-      <File Name="SDK/platform/devices/MKL25Z4/include/fsl_bitaccess.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162360" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162188" FileType="1048576" />
-      <File Name="SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162407" FileType="1048576" />
-      <File Name="Generated_Code/PE_low_level_init.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162453" FileType="45637" CompNumb="1" />
-      <File Name="SDK/rtos/FreeRTOS/src/croutine.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383774" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="8" />
+      <File Name="SDK/platform/devices/MKL25Z4/include/MKL25Z4_features.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/MKL25Z4/include/fsl_bitaccess.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
+      <File Name="Sources/main.c" FileDate="2018-03-13, 14:11:08" FileAge="1520961068141" FileType="128" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_free_rtos.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="12" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813257" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS/include/list.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/include/portable.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/free_rtos.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="16" />
+      <File Name="SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/rtos/FreeRTOS/include/task.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/free_rtos.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="16" />
+      <File Name="Documentation/doxygen/main_project_project.txt" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="1048576" CompNumb="1" />
+      <File Name="Documentation/main_project_Settings.xml" FileDate="2018-03-13, 14:11:08" FileAge="1520961068344" FileType="3072" />
+      <File Name="SDK/rtos/FreeRTOS/include/projdefs.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/Task2.h" FileDate="2018-03-13, 14:11:08" FileAge="1520961068110" FileType="45637" CompNumb="20" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813257" FileType="1048576" CompNumb="1" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="16384" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/rtos/FreeRTOS/include/StackMacros.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="8" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/Task2.c" FileDate="2018-03-13, 14:11:08" FileAge="1520961068110" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/Task1.h" FileDate="2018-03-13, 14:11:08" FileAge="1520961068125" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/PE_low_level_init.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="45637" CompNumb="1" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/Task1.c" FileDate="2018-03-13, 14:11:08" FileAge="1520961068125" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/osa1.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="12" />
+      <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/rtos/FreeRTOS/src/event_groups.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/osa1.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="12" />
+      <File Name="SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="45637" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS/port/gcc/portTicks.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="45637" CompNumb="1" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2018-03-13, 14:11:08" FileAge="1520961068156" FileType="45637" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS/include/event_groups.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/osa/src/fsl_os_abstraction_free_rtos.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="12" />
+      <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813335" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS/port/gcc/portasm.S" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="11" />
       <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
-      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2018-03-06, 15:32:42" FileAge="1520361162438" FileType="45637" CompNumb="1" />
-      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162157" FileType="1048576" />
-      <File Name="Documentation/doxygen/main_project_project.txt" FileDate="2018-03-06, 15:32:42" FileAge="1520361162438" FileType="45637" CompNumb="1" />
-      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2018-03-06, 15:32:42" FileAge="1520361162422" FileType="45637" CompNumb="1" />
-      <File Name="SDK/rtos/FreeRTOS/include/portable.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383696" FileType="1048576" />
-      <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162282" FileType="1048576" />
-      <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162407" FileType="1048576" />
-      <File Name="Documentation/doxygen/pex.css" FileDate="2018-03-06, 15:32:41" FileAge="1520361161969" FileType="16384" CompNumb="1" />
-      <File Name="Generated_Code/board.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162500" FileType="45637" CompNumb="7" />
-      <File Name="Generated_Code/Cpu.h" FileDate="2018-03-06, 15:36:24" FileAge="1520361384009" FileType="45637" CompNumb="1" />
-      <File Name="SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162235" FileType="1048576" />
-      <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162328" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/heap_4.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383806" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/event_groups.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383774" FileType="1048576" />
-      <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162219" FileType="1048576" />
-      <File Name="Generated_Code/Cpu.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162453" FileType="45637" CompNumb="1" />
-      <File Name="SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162235" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/event_groups.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383665" FileType="1048576" />
-      <File Name="SDK/platform/osa/src/fsl_os_abstraction_free_rtos.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383837" FileType="1048576" />
-      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162141" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/heap_3.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383790" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/port/gcc/port.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383759" FileType="1048576" />
-      <File Name="SDK/platform/devices/MKL25Z4/include/MKL25Z4.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162360" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162266" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/projdefs.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383696" FileType="1048576" />
-      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162297" FileType="1048576" />
-      <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162219" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/heap_2.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383790" FileType="1048576" />
-      <File Name="Documentation/main_project.txt" FileDate="2018-03-06, 15:36:24" FileAge="1520361384368" FileType="3072" />
-      <File Name="SDK/rtos/FreeRTOS/include/StackMacros.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383712" FileType="1048576" />
-      <File Name="SDK/platform/CMSIS/Include/core_cm0plus.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162313" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/heap_1.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383774" FileType="1048576" />
-      <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162344" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162172" FileType="1048576" />
-      <File Name="Generated_Code/pin_init.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162500" FileType="45637" CompNumb="7" />
-      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162188" FileType="1048576" />
-      <File Name="SDK/platform/devices/startup.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162391" FileType="1048576" />
-      <File Name="Generated_Code/pin_init.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162500" FileType="45637" CompNumb="7" />
-      <File Name="SDK/rtos/FreeRTOS/include/list.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383681" FileType="1048576" />
-      <File Name="SDK/platform/devices/startup.c" FileDate="2018-03-06, 15:32:42" FileAge="1520361162375" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/port/gcc/portasm.S" FileDate="2018-03-06, 15:36:23" FileAge="1520361383743" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/task.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383728" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/mpu_wrappers.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383696" FileType="1048576" />
-      <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162328" FileType="1048576" />
-      <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2018-03-06, 15:32:42" FileAge="1520361162328" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/queue.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383806" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/port/gcc/portTicks.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383759" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/timers.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383728" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/include/semphr.h" FileDate="2018-03-06, 15:36:23" FileAge="1520361383712" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/tasks.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383821" FileType="1048576" />
-      <File Name="SDK/rtos/FreeRTOS/src/timers.c" FileDate="2018-03-06, 15:36:23" FileAge="1520361383821" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS/include/queue.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="2" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="7" />
+      <File Name="SDK/rtos/FreeRTOS/port/gcc/port.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/src/heap_4.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/SDK/rtos/FreeRTOS/config/FreeRTOSConfig.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="45637" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/src/croutine.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/src/heap_3.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/rtos/FreeRTOS/src/heap_2.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/board.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813226" FileType="45637" CompNumb="2" />
+      <File Name="SDK/rtos/FreeRTOS/src/queue.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/src/list.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/src/tasks.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/src/heap_1.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813319" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/include/mpu_wrappers.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/devices/MKL25Z4/include/MKL25Z4.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813257" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS/include/timers.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/include/semphr.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/rtos/FreeRTOS/port/gcc/portmacro.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="12" />
+      <File Name="SDK/platform/devices/MKL25Z4/include/MKL25Z4_extension.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813273" FileType="1048576" CompNumb="1" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2018-03-13, 14:06:53" FileAge="1520960813241" FileType="8" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS/include/FreeRTOS.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/rtos/FreeRTOS/include/croutine.h" FileDate="2018-03-13, 14:06:53" FileAge="1520960813304" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2018-03-13, 14:06:53" FileAge="1520960813288" FileType="1048576" CompNumb="2" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>2</CodeGenReference>
+  <CodeGenReference>4</CodeGenReference>
 </CodeGenerationInfo>

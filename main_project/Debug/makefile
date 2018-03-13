@@ -59,9 +59,6 @@ endif
 -include ../makefile.defs
 
 # Add inputs and outputs from these tool invocations to the build variables 
-SECONDARY_SIZE += \
-main_project.siz \
-
 
 # All Target
 all: main_project.elf secondary-outputs
@@ -70,22 +67,16 @@ all: main_project.elf secondary-outputs
 main_project.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "C:/Users/aluno/Documents/IM420/main_project/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/aluno/Documents/IM420/main_project/Project_Settings/Linker_Files" -Wl,-Map,"main_project.map" -specs=nosys.specs -specs=nano.specs -o "main_project.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/aluno/Documents/gkk/IM420O/main_project/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/aluno/Documents/gkk/IM420O/main_project/Project_Settings/Linker_Files" -Wl,-Map,"main_project.map" -specs=nosys.specs -specs=nano.specs -o "main_project.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
-	@echo ' '
-
-main_project.siz: main_project.elf
-	@echo 'Invoking: Cross ARM GNU Print Size'
-	arm-none-eabi-size --format=berkeley "main_project.elf"
-	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(SECONDARY_SIZE)$(C++_DEPS)$(OBJS)$(C_DEPS)$(ASM_DEPS)$(CC_DEPS)$(CPP_DEPS)$(CXX_DEPS)$(C_UPPER_DEPS)$(S_UPPER_DEPS) main_project.elf
+	-$(RM) $(C++_DEPS)$(OBJS)$(C_DEPS)$(ASM_DEPS)$(CC_DEPS)$(CPP_DEPS)$(CXX_DEPS)$(C_UPPER_DEPS)$(S_UPPER_DEPS) main_project.elf
 	-@echo ' '
 
-secondary-outputs: $(SECONDARY_SIZE)
+secondary-outputs:
 
 .PHONY: all clean dependents
 .SECONDARY:

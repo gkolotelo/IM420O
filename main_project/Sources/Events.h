@@ -35,6 +35,8 @@
 #include "pin_init.h"
 #include "osa1.h"
 #include "free_rtos.h"
+#include "Task1.h"
+#include "Task2.h"
 
 #ifdef __cplusplus
 extern "C" {

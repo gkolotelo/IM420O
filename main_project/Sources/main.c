@@ -30,10 +30,13 @@
 /* Including needed modules to compile this module/procedure */
 #include "Cpu.h"
 #include "Events.h"
+#include "os_tasks.h"
 #include "clockMan1.h"
 #include "pin_init.h"
 #include "osa1.h"
 #include "free_rtos.h"
+#include "Task1.h"
+#include "Task2.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif
@@ -59,9 +62,7 @@ int main(void)
   #endif
   /*** End of RTOS startup code.  ***/
   /*** Processor Expert end of main routine. DON'T MODIFY THIS CODE!!! ***/
-  for(;;){
-	  while(1);
-  }
+  for(;;){}
   /*** Processor Expert end of main routine. DON'T WRITE CODE BELOW!!! ***/
 } /*** End of main routine. DO NOT MODIFY THIS TEXT!!! ***/
 

@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.2.0
 **     Datasheet   : KL25P80M48SF0RM, Rev.3, Sep 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-03-06, 15:32, # CodeGen: 0
+**     Date/Time   : 2018-03-13, 14:11, # CodeGen: 2
 **     Abstract    :
 **
 **     Settings    :
@@ -67,6 +67,7 @@
 /* {Default RTOS Adapter} No RTOS includes */
 #include "Cpu.h"
 #include "Events.h"
+#include "os_tasks.h"
 
 
 #ifdef __cplusplus
@@ -107,6 +108,12 @@ void Common_Init(void)
 void Components_Init(void)
 {
 
+  /*! Task1 Auto initialization start */ 
+  (void)Task1_Init();
+  /*! Task1 Auto initialization end */                       
+  /*! Task2 Auto initialization start */ 
+  (void)Task2_Init();
+  /*! Task2 Auto initialization end */                       
 }
 #endif /* CPU_COMPONENTS_INIT */
 
