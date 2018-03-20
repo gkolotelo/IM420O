@@ -1,13 +1,11 @@
 I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 { IProject 
-	- _ownerHandle = { IHandle 
-		- _m2Class = "";
-	}
 	- _id = GUID 494a2971-785e-453b-a4ad-556c91b6651c;
 	- _myState = 8192;
 	- _name = "Tutorial";
-	- _objectCreation = "142317513020181518921314";
-	- _umlDependencyID = "2432";
+	- _objectCreation = "422346920562018155489342";
+	- _umlDependencyID = "2454";
+	- _lastID = 3;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -33,7 +31,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		- value = 
 		{ IMultiplicityItem 
 			- _name = "1";
-			- _count = -1;
+			- _count = 13;
 		}
 		{ IMultiplicityItem 
 			- _name = "*";
@@ -49,11 +47,19 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 1;
+		- size = 3;
 		- value = 
 		{ ISubsystem 
 			- fileName = "Default";
 			- _id = GUID c96e4172-6bcb-4fac-9e47-5026b6d99fca;
+		}
+		{ ISubsystem 
+			- fileName = "ArchitecturePkg";
+			- _id = GUID f7529d04-5f9c-4c4d-a80c-45db2137434d;
+		}
+		{ ISubsystem 
+			- fileName = "SubsystemsPkg";
+			- _id = GUID 7387ef50-a2a9-4f12-99d0-ac4915958c51;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 

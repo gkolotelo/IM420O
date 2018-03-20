@@ -1,0 +1,50 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 7387ef50-a2a9-4f12-99d0-ac4915958c51;
+	- _myState = 8192;
+	- _name = "SubsystemsPkg";
+	- _displayName = "SubsystemsPkg";
+	- _objectCreation = "291335120532018154919329";
+	- _umlDependencyID = "2975";
+	- _lastID = 3;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ISubsystem 
+			- fileName = "CM_SubsystemPkg";
+			- _id = GUID 662ad15b-3cee-4517-ad0f-56467b89f9a3;
+		}
+		{ ISubsystem 
+			- fileName = "DL_SubsystemPkg";
+			- _id = GUID 9993603f-a537-427b-ae82-49e79e3b7e53;
+		}
+		{ ISubsystem 
+			- fileName = "MM_SubsystemPkg";
+			- _id = GUID d5179270-c57c-4dff-a660-a0388450fce4;
+		}
+	}
+	- weakCGTime = 3.20.2018::18:45:41;
+	- strongCGTime = 3.20.2018::18:45:11;
+	- _defaultComposite = GUID 31e04df0-42ea-4f5a-ab6f-e1476eaf311b;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 31e04df0-42ea-4f5a-ab6f-e1476eaf311b;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "302415720532018154864330";
+			- _umlDependencyID = "2395";
+			- weakCGTime = 12.31.1969::22:0:0;
+			- strongCGTime = 12.31.1969::22:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::22:0:0;
+}
+
