@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 		- size = 0;
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 4;
+		- size = 6;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -29,16 +29,44 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "Block Diagram";
 				- _id = GUID 23be79cd-7fcc-4a01-81d2-4c91e28cb239;
 			}
-			- _UpLeft = 0 32 ;
-			- _DownRight = 1096 564 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1096 532 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 3;
+			- m_nDiagramIndex = 5;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
 				- m_nFlags = 2;
 				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 208;
+				- m_nTop = 208;
+				- m_nRight = 924;
+				- m_nBottom = 1057;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "CM_SubsystemPkg.sbs";
+				- _subsystem = "SubsystemsPkg::CM_SubsystemPkg";
+				- _class = "TopLevel.ConnectionManagement.CallControl";
+				- _name = "StatechartDiagram";
+				- _id = GUID 10607772-43a9-4d50-9de9-cb2a2922e78f;
+			}
+			- _UpLeft = 0 10 ;
+			- _DownRight = 1111 1254 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -57,10 +85,10 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "Connection Management Structure";
 				- _id = GUID 88fc4cf9-74f5-4bad-a38f-e0a56a931421;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1372 862 ;
+			- _UpLeft = -8 0 ;
+			- _DownRight = 576 293 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -86,9 +114,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _id = GUID 84e27233-8417-49a5-9237-5f0862850f76;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1070 537 ;
+			- _DownRight = 530 266 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -114,12 +142,40 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _id = GUID 11f59d2a-b287-4a4b-8620-ced521eeaba8;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1070 537 ;
+			- _DownRight = 548 275 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 182;
+				- m_nTop = 182;
+				- m_nRight = 898;
+				- m_nBottom = 1031;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "SubsystemsPkg.sbs";
+				- _subsystem = "SubsystemsPkg";
+				- _class = "";
+				- _name = "Subsystem Architechture";
+				- _id = GUID 5c675913-0d42-4de9-ae66-7164720a6de4;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 679 789 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
 		}
 	}
-	- _fullName = "C:\\Users\\aluno\\Documents\\gkk\\IM420O\\sysml\\Tutorial\\Tutorial";
+	- _fullName = "D:\\Users\\guilherme\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\Tutorial\\Tutorial";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
