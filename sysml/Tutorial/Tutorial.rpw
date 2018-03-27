@@ -9,8 +9,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -30,15 +30,15 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _id = GUID 23be79cd-7fcc-4a01-81d2-4c91e28cb239;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1096 532 ;
+			- _DownRight = 1396 862 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 5;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -57,8 +57,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "StatechartDiagram";
 				- _id = GUID 10607772-43a9-4d50-9de9-cb2a2922e78f;
 			}
-			- _UpLeft = 0 10 ;
-			- _DownRight = 1111 1254 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 707 821 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
@@ -85,8 +85,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "Connection Management Structure";
 				- _id = GUID 88fc4cf9-74f5-4bad-a38f-e0a56a931421;
 			}
-			- _UpLeft = -8 0 ;
-			- _DownRight = 576 293 ;
+			- _UpLeft = -5 50 ;
+			- _DownRight = 579 343 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 4;
 		}
@@ -113,8 +113,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "Data Link Structure";
 				- _id = GUID 84e27233-8417-49a5-9237-5f0862850f76;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 530 266 ;
+			- _UpLeft = -2 40 ;
+			- _DownRight = 533 309 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 3;
 		}
@@ -141,8 +141,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "MM Architecture Structure";
 				- _id = GUID 11f59d2a-b287-4a4b-8620-ced521eeaba8;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 548 275 ;
+			- _UpLeft = 0 70 ;
+			- _DownRight = 548 345 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
@@ -175,7 +175,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 			- m_nDiagramIndex = 1;
 		}
 	}
-	- _fullName = "D:\\Users\\guilherme\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\Tutorial\\Tutorial";
+	- _fullName = "C:\\Users\\aluno\\Documents\\gkk\\IM420o\\sysml\\Tutorial\\Tutorial";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}

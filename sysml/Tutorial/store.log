@@ -1,35 +1,42 @@
-03, 24, 2018 (14:45:20): Starting Pre-Save actions
+03, 27, 2018 (14:45:32): Starting Pre-Save actions
 
-03, 24, 2018 (14:45:20): Starting Dialogs Check/Save
-03, 24, 2018 (14:45:20): Finished Dialogs Check/Save
-03, 24, 2018 (14:45:20): Starting Controlled Files Resolution
-03, 24, 2018 (14:45:20): Finished Controlled Files Resolution
-03, 24, 2018 (14:45:20): Finished Pre-Save actions
+03, 27, 2018 (14:45:32): Starting Dialogs Check/Save
+03, 27, 2018 (14:45:32): Finished Dialogs Check/Save
+03, 27, 2018 (14:45:32): Starting Controlled Files Resolution
+03, 27, 2018 (14:45:32): Finished Controlled Files Resolution
+03, 27, 2018 (14:45:32): Finished Pre-Save actions
 
-03, 24, 2018 (14:45:20): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial.rpy
-03, 24, 2018 (14:45:20): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial.rpy on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): Creating C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial.rpy
+03, 27, 2018 (14:45:32): 
+Started writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial.rpy on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): version 8.5.2
-03, 24, 2018 (14:45:20): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\filesTable.dat on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): version 8.5.2
+03, 27, 2018 (14:45:32): 
+Started writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\filesTable.dat on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\filesTable.dat on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): Finished writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\filesTable.dat on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\SubsystemsPkg.sbs
-03, 24, 2018 (14:45:20): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\SubsystemsPkg.sbs on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): Creating C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\ArchitecturePkg.sbs
+03, 27, 2018 (14:45:32): 
+Started writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\ArchitecturePkg.sbs on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): version 8.5.2
-03, 24, 2018 (14:45:20): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\CM_SubsystemPkg.sbs
-03, 24, 2018 (14:45:20): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\CM_SubsystemPkg.sbs on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): version 8.5.2
+03, 27, 2018 (14:45:32): Finished writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\ArchitecturePkg.sbs on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): version 8.5.2
-03, 24, 2018 (14:45:20): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\CM_SubsystemPkg.sbs on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): Creating C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\SubsystemsPkg.sbs
+03, 27, 2018 (14:45:32): 
+Started writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\SubsystemsPkg.sbs on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial_rpy\SubsystemsPkg.sbs on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): version 8.5.2
+03, 27, 2018 (14:45:32): Creating C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\CM_SubsystemPkg.sbs
+03, 27, 2018 (14:45:32): 
+Started writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\CM_SubsystemPkg.sbs on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Tutorial\Tutorial.rpy on Saturday, March 24, 2018 (14:45:20)
+03, 27, 2018 (14:45:32): version 8.5.2
+03, 27, 2018 (14:45:32): Finished writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\CM_SubsystemPkg.sbs on Tuesday, March 27, 2018 (14:45:32)
 
-03, 24, 2018 (14:45:20): End Log
+03, 27, 2018 (14:45:32): Finished writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial_rpy\SubsystemsPkg.sbs on Tuesday, March 27, 2018 (14:45:32)
+
+03, 27, 2018 (14:45:32): Finished writing C:\Users\aluno\Documents\gkk\IM420o\sysml\Tutorial\Tutorial.rpy on Tuesday, March 27, 2018 (14:45:32)
+
+03, 27, 2018 (14:45:32): End Log
