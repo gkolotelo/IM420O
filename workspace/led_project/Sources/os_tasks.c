@@ -31,6 +31,7 @@
 #include "Cpu.h"
 #include "Events.h"
 #include "os_tasks.h"
+#include "hal/led/ledrgb_hal.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -41,11 +42,12 @@ int i = 0;
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
+
 /*
 ** ===================================================================
-**     Event       :  Task2_task (module os_tasks)
+**     Event       :  Task_RedLed_entry (module os_tasks)
 **
-**     Component   :  Task2 [OS_Task]
+**     Component   :  Task_RedLed [OS_Task]
 */
 /*!
 **     @brief
@@ -56,20 +58,34 @@ int i = 0;
 **         task when it is created.
 */
 /* ===================================================================*/
-void Task2_task(os_task_param_t task_init_data)
+void Task_RedLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
   
-#ifdef PEX_USE_RTOS
-  while (1) {
-#endif
-    /* Write your code here ... */
-    
-	i = i + 1;
-    
-    OSA_TimeDelay(10);                 /* Example code (for task release) */
-   
-    
+	uint16_t led_delay = 200;
+	uint16_t state = 1;
+
+	ledrgb_clearRedLed();
+
+	OSA_TimeDelay(10);
+
+	#ifdef PEX_USE_RTOS
+	  while (1) {
+	#endif
+	    /* Write your code here ... */
+
+		  if(state == 1)
+		  {
+			  ledrgb_setRedLed();
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
+			  state = 2;
+		  }
+		  if(state == 2)
+		  {
+			  ledrgb_clearRedLed();
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
+			  state = 1;
+		  }
     
     
 #ifdef PEX_USE_RTOS   
@@ -79,9 +95,9 @@ void Task2_task(os_task_param_t task_init_data)
 
 /*
 ** ===================================================================
-**     Event       :  Task1_task (module os_tasks)
+**     Event       :  Task_GreenLed_entry (module os_tasks)
 **
-**     Component   :  Task1 [OS_Task]
+**     Component   :  Task_GreenLed [OS_Task]
 */
 /*!
 **     @brief
@@ -92,18 +108,85 @@ void Task2_task(os_task_param_t task_init_data)
 **         task when it is created.
 */
 /* ===================================================================*/
-void Task1_task(os_task_param_t task_init_data)
+void Task_GreenLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
+
+	uint16_t led_delay = 1000;
+	uint16_t state = 1;
+
+	ledrgb_clearGreenLed();
+
+	OSA_TimeDelay(5000);
+
+	#ifdef PEX_USE_RTOS
+	  while (1) {
+	#endif
+	    /* Write your code here ... */
+
+		  if(state == 1)
+		  {
+			  ledrgb_setGreenLed();
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
+			  state = 2;
+		  }
+		  if(state == 2)
+		  {
+			  ledrgb_clearGreenLed();
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
+			  state = 1;
+		  }
+    
+    
+#ifdef PEX_USE_RTOS   
+  }
+#endif    
+}
+
+/*
+** ===================================================================
+**     Event       :  Task_BlueLed_entry (module os_tasks)
+**
+**     Component   :  Task_BlueLed [OS_Task]
+*/
+/*!
+**     @brief
+**         RTOS task routine. The routine is generated into os_tasks.c
+**         file.
+**     @param
+**         task_init_data  - Parameter to be passed to the
+**         task when it is created.
+*/
+/* ===================================================================*/
+void Task_BlueLed_entry(os_task_param_t task_init_data)
+{
+  /* Write your local variable definition here */
+
+	uint16_t led_delay = 2000;
+	uint16_t state = 1;
+
+	ledrgb_clearBlueLed();
+
+	// Force delay:
+	//for(int i=0;i++;i<100000)asm("nop");
   
 #ifdef PEX_USE_RTOS
   while (1) {
 #endif
     /* Write your code here ... */
     
-	i = i + 2;
-    
-    OSA_TimeDelay(10);                 /* Example code (for task release) */
+	  if(state == 1)
+	  {
+		  ledrgb_setBlueLed();
+		  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
+		  state = 2;
+	  }
+	  if(state == 2)
+	  {
+		  ledrgb_clearBlueLed();
+		  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
+		  state = 1;
+	  }
    
     
     

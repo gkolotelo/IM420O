@@ -26,6 +26,7 @@ S_UPPER_DEPS :=
 SUBDIRS := \
 Static_Code/System \
 Sources \
+Sources/hal/led \
 SDK/rtos/FreeRTOS/src \
 SDK/rtos/FreeRTOS/port/gcc \
 SDK/platform/system/src/interrupt \
@@ -37,6 +38,7 @@ SDK/platform/hal/src/rtc \
 SDK/platform/hal/src/port \
 SDK/platform/hal/src/osc \
 SDK/platform/hal/src/mcg \
+SDK/platform/hal/src/gpio \
 SDK/platform/drivers/src/rtc \
 SDK/platform/devices \
 SDK/platform/devices/MKL25Z4/startup \

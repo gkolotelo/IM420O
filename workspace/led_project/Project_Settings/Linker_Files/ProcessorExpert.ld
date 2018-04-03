@@ -4,13 +4,13 @@
 /*##                                                                         */
 /*##     Filename  : ProcessorExpert.ld                                      */
 /*##                                                                         */
-/*##     Project   : main_project                                            */
+/*##     Project   : led_project                                             */
 /*##                                                                         */
 /*##     Processor : MKL25Z128VLK4                                           */
 /*##                                                                         */
 /*##     Compiler  : GNU C Compiler                                          */
 /*##                                                                         */
-/*##     Date/Time : 2018-03-06, 15:32, # CodeGen: 0                         */
+/*##     Date/Time : 2018-04-03, 15:19, # CodeGen: 0                         */
 /*##                                                                         */
 /*##     Abstract  :                                                         */
 /*##                                                                         */

@@ -5,8 +5,9 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Generated_Code/Cpu.c \
-../Generated_Code/Task1.c \
-../Generated_Code/Task2.c \
+../Generated_Code/Task_BlueLed.c \
+../Generated_Code/Task_GreenLed.c \
+../Generated_Code/Task_RedLed.c \
 ../Generated_Code/clockMan1.c \
 ../Generated_Code/free_rtos.c \
 ../Generated_Code/hardware_init.c \
@@ -15,8 +16,9 @@ C_SRCS += \
 
 OBJS += \
 ./Generated_Code/Cpu.o \
-./Generated_Code/Task1.o \
-./Generated_Code/Task2.o \
+./Generated_Code/Task_BlueLed.o \
+./Generated_Code/Task_GreenLed.o \
+./Generated_Code/Task_RedLed.o \
 ./Generated_Code/clockMan1.o \
 ./Generated_Code/free_rtos.o \
 ./Generated_Code/hardware_init.o \
@@ -25,8 +27,9 @@ OBJS += \
 
 C_DEPS += \
 ./Generated_Code/Cpu.d \
-./Generated_Code/Task1.d \
-./Generated_Code/Task2.d \
+./Generated_Code/Task_BlueLed.d \
+./Generated_Code/Task_GreenLed.d \
+./Generated_Code/Task_RedLed.d \
 ./Generated_Code/clockMan1.d \
 ./Generated_Code/free_rtos.d \
 ./Generated_Code/hardware_init.d \

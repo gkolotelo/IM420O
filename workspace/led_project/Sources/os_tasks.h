@@ -36,8 +36,9 @@
 #include "pin_init.h"
 #include "osa1.h"
 #include "free_rtos.h"
-#include "Task1.h"
-#include "Task2.h"
+#include "Task_BlueLed.h"
+#include "Task_GreenLed.h"
+#include "Task_RedLed.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -77,6 +78,57 @@ void Task2_task(os_task_param_t task_init_data);
 /* ===================================================================*/
 void Task1_task(os_task_param_t task_init_data);
 
+
+/*
+** ===================================================================
+**     Event       :  Task_RedLed_entry (module os_tasks)
+**
+**     Component   :  Task_RedLed [OS_Task]
+*/
+/*!
+**     @brief
+**         RTOS task routine. The routine is generated into os_tasks.c
+**         file.
+**     @param
+**         task_init_data  - Parameter to be passed to the
+**         task when it is created.
+*/
+/* ===================================================================*/
+void Task_RedLed_entry(os_task_param_t task_init_data);
+
+/*
+** ===================================================================
+**     Event       :  Task_GreenLed_entry (module os_tasks)
+**
+**     Component   :  Task_GreenLed [OS_Task]
+*/
+/*!
+**     @brief
+**         RTOS task routine. The routine is generated into os_tasks.c
+**         file.
+**     @param
+**         task_init_data  - Parameter to be passed to the
+**         task when it is created.
+*/
+/* ===================================================================*/
+void Task_GreenLed_entry(os_task_param_t task_init_data);
+
+/*
+** ===================================================================
+**     Event       :  Task_BlueLed_entry (module os_tasks)
+**
+**     Component   :  Task_BlueLed [OS_Task]
+*/
+/*!
+**     @brief
+**         RTOS task routine. The routine is generated into os_tasks.c
+**         file.
+**     @param
+**         task_init_data  - Parameter to be passed to the
+**         task when it is created.
+*/
+/* ===================================================================*/
+void Task_BlueLed_entry(os_task_param_t task_init_data);
 
 /* END os_tasks */
 

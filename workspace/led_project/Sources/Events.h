@@ -35,8 +35,9 @@
 #include "pin_init.h"
 #include "osa1.h"
 #include "free_rtos.h"
-#include "Task1.h"
-#include "Task2.h"
+#include "Task_BlueLed.h"
+#include "Task_GreenLed.h"
+#include "Task_RedLed.h"
 
 #ifdef __cplusplus
 extern "C" {

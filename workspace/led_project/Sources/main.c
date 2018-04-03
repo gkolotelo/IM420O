@@ -35,12 +35,18 @@
 #include "pin_init.h"
 #include "osa1.h"
 #include "free_rtos.h"
-#include "Task1.h"
-#include "Task2.h"
+#include "Task_BlueLed.h"
+#include "Task_GreenLed.h"
+#include "Task_RedLed.h"
+
+
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif
 /* User includes (#include below this line is not maintained by Processor Expert) */
+
+#include "hal/led/ledrgb_hal.h"
+
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
 int main(void)
@@ -53,6 +59,7 @@ int main(void)
   /*** End of Processor Expert internal initialization.                    ***/
 
   /* Write your code here */
+  ledrgb_init();
   /* For example: for(;;) { } */
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/

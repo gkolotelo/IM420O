@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Static_Code/System/subdir.mk
+-include Sources/hal/led/subdir.mk
 -include Sources/subdir.mk
 -include SDK/rtos/FreeRTOS/src/subdir.mk
 -include SDK/rtos/FreeRTOS/port/gcc/subdir.mk
@@ -21,6 +22,7 @@ RM := rm -rf
 -include SDK/platform/hal/src/port/subdir.mk
 -include SDK/platform/hal/src/osc/subdir.mk
 -include SDK/platform/hal/src/mcg/subdir.mk
+-include SDK/platform/hal/src/gpio/subdir.mk
 -include SDK/platform/drivers/src/rtc/subdir.mk
 -include SDK/platform/devices/MKL25Z4/startup/gcc/subdir.mk
 -include SDK/platform/devices/MKL25Z4/startup/subdir.mk
