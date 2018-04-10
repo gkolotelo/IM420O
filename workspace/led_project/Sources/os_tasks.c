@@ -62,12 +62,11 @@ void Task_RedLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
   
-	uint16_t led_delay = 200;
+	uint16_t led_delay = 10;
 	uint16_t state = 1;
 
 	ledrgb_clearRedLed();
 
-	OSA_TimeDelay(10);
 
 	#ifdef PEX_USE_RTOS
 	  while (1) {
@@ -77,15 +76,16 @@ void Task_RedLed_entry(os_task_param_t task_init_data)
 		  if(state == 1)
 		  {
 			  ledrgb_setRedLed();
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 			  state = 2;
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 		  }
 		  if(state == 2)
 		  {
 			  ledrgb_clearRedLed();
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 			  state = 1;
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 		  }
+
     
     
 #ifdef PEX_USE_RTOS   
@@ -112,12 +112,11 @@ void Task_GreenLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
 
-	uint16_t led_delay = 1000;
+	uint16_t led_delay = 10;
 	uint16_t state = 1;
 
 	ledrgb_clearGreenLed();
 
-	OSA_TimeDelay(5000);
 
 	#ifdef PEX_USE_RTOS
 	  while (1) {
@@ -127,14 +126,14 @@ void Task_GreenLed_entry(os_task_param_t task_init_data)
 		  if(state == 1)
 		  {
 			  ledrgb_setGreenLed();
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 			  state = 2;
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 		  }
 		  if(state == 2)
 		  {
 			  ledrgb_clearGreenLed();
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 			  state = 1;
+			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 		  }
     
     
@@ -162,13 +161,13 @@ void Task_BlueLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
 
-	uint16_t led_delay = 2000;
+	uint16_t led_delay = 10;
 	uint16_t state = 1;
 
 	ledrgb_clearBlueLed();
 
 	// Force delay:
-	//for(int i=0;i++;i<100000)asm("nop");
+	for(int i=0;i<10000000;i++)__asm("nop");
   
 #ifdef PEX_USE_RTOS
   while (1) {
@@ -178,15 +177,17 @@ void Task_BlueLed_entry(os_task_param_t task_init_data)
 	  if(state == 1)
 	  {
 		  ledrgb_setBlueLed();
-		  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 		  state = 2;
+		  for(int i=0; i<10000000; i++)__asm("nop");
 	  }
 	  if(state == 2)
 	  {
 		  ledrgb_clearBlueLed();
-		  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
 		  state = 1;
+		  for(int i=0; i<10000000; i++)__asm("nop");
 	  }
+
+	  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
    
     
     

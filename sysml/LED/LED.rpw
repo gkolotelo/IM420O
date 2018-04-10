@@ -65,8 +65,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -85,8 +85,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "StatechartDiagram";
 				- _id = GUID 398da3e6-94cd-483b-bbc2-beb2cd28a1fa;
 			}
-			- _UpLeft = 230 0 ;
-			- _DownRight = 485 568 ;
+			- _UpLeft = 39 0 ;
+			- _DownRight = 1499 936 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
@@ -121,8 +121,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -141,13 +141,13 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "StatechartDiagram";
 				- _id = GUID 9bd860a6-1b03-4787-b9b6-716db26b77d1;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1410 893 ;
+			- _UpLeft = 35 66 ;
+			- _DownRight = 980 509 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
 	}
-	- _fullName = "C:\\Users\\aluno\\Documents\\gkk\\IM420o\\sysml\\LED\\LED";
+	- _fullName = "C:\\Users\\aluno\\Documents\\gkk\\IM420O\\sysml\\LED\\LED";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
