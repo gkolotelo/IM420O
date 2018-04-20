@@ -63,7 +63,7 @@ void Task_RedLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
   
-	uint16_t led_delay = 10;
+	uint16_t led_delay = 200;
 	uint16_t state = 1;
 
 	ledrgb_clearRedLed();
@@ -113,7 +113,7 @@ void Task_GreenLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
 
-	uint16_t led_delay = 10;
+	uint16_t led_delay = 100;
 	uint16_t state = 1;
 
 	ledrgb_clearGreenLed();
@@ -162,7 +162,7 @@ void Task_BlueLed_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
 
-	uint16_t led_delay = 10;
+	uint16_t led_delay = 1000;
 	uint16_t state = 1;
 
 	ledrgb_clearBlueLed();

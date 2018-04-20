@@ -6,7 +6,7 @@
 **     Version     : Component 8.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-20, 18:27, # CodeGen: 1
+**     Date/Time   : 2018-04-20, 19:49, # CodeGen: 15
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -75,7 +75,8 @@
 #define configMINIMAL_STACK_SIZE                 200 /* stack size in addressable stack units */
 
 /* Heap Memory */
-#define configFRTOS_MEMORY_SCHEME                3 /* 1 (only alloc), 2 (alloc/free), 3 (malloc) or 4 (coalesce blocks) */
+#define configFRTOS_MEMORY_SCHEME                2 /* 1 (only alloc), 2 (alloc/free), 3 (malloc) or 4 (coalesce blocks) */
+#define configTOTAL_HEAP_SIZE                    8192 /* Size of heap in bytes */
   
 /*----------------------------------------------------------*/
 #define configMAX_TASK_NAME_LEN                  12 /* Task name length */

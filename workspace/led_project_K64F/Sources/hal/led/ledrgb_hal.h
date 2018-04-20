@@ -12,9 +12,9 @@
 #define SOURCES_LEDRGB_HAL_H_
 
 /* FDRMKL25Z RGB LED pins defintion */
-#define RED_LED_PIN     (uint32_t) 18u
-#define GREEN_LED_PIN   (uint32_t) 19u
-#define BLUE_LED_PIN    (uint32_t) 1u
+#define RED_LED_PIN     (uint32_t) 22u
+#define GREEN_LED_PIN   (uint32_t) 26u
+#define BLUE_LED_PIN    (uint32_t) 21u
 
 /* ************************************************ */
 /* Method name:        ledrgb_init                  */

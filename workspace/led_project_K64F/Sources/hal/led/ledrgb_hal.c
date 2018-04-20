@@ -26,17 +26,17 @@ void ledrgb_init(void)
 {
     /* un-gate port clock*/
     CLOCK_SYS_EnablePortClock(PORTB_IDX);
-    CLOCK_SYS_EnablePortClock(PORTD_IDX);
+    CLOCK_SYS_EnablePortClock(PORTE_IDX);
 
     /* set pin as gpio */
     PORT_HAL_SetMuxMode(PORTB, RED_LED_PIN, kPortMuxAsGpio);
-    PORT_HAL_SetMuxMode(PORTB, GREEN_LED_PIN, kPortMuxAsGpio);
-    PORT_HAL_SetMuxMode(PORTD, BLUE_LED_PIN, kPortMuxAsGpio);
+    PORT_HAL_SetMuxMode(PORTE, GREEN_LED_PIN, kPortMuxAsGpio);
+    PORT_HAL_SetMuxMode(PORTB, BLUE_LED_PIN, kPortMuxAsGpio);
 
     /* set pin as digital output */
     GPIO_HAL_SetPinDir(PTB, RED_LED_PIN, kGpioDigitalOutput);
-    GPIO_HAL_SetPinDir(PTB, GREEN_LED_PIN, kGpioDigitalOutput);
-    GPIO_HAL_SetPinDir(PTD, BLUE_LED_PIN, kGpioDigitalOutput);
+    GPIO_HAL_SetPinDir(PTE, GREEN_LED_PIN, kGpioDigitalOutput);
+    GPIO_HAL_SetPinDir(PTB, BLUE_LED_PIN, kGpioDigitalOutput);
 
     /* clear all leds */
     ledrgb_clearRedLed();
@@ -83,7 +83,7 @@ void ledrgb_setRedLed(void)
 void ledrgb_clearGreenLed(void)
 {
     /* clear desired led */
-    GPIO_HAL_SetPinOutput(PTB, GREEN_LED_PIN);
+    GPIO_HAL_SetPinOutput(PTE, GREEN_LED_PIN);
 }
 
 
@@ -97,7 +97,7 @@ void ledrgb_clearGreenLed(void)
 void ledrgb_setGreenLed(void)
 {
     /* set desired led */
-    GPIO_HAL_ClearPinOutput(PTB, GREEN_LED_PIN);
+    GPIO_HAL_ClearPinOutput(PTE, GREEN_LED_PIN);
 }
 
 
@@ -111,7 +111,7 @@ void ledrgb_setGreenLed(void)
 void ledrgb_clearBlueLed(void)
 {
     /* clear desired led */
-    GPIO_HAL_SetPinOutput(PTD, BLUE_LED_PIN);
+    GPIO_HAL_SetPinOutput(PTB, BLUE_LED_PIN);
 }
 
 
@@ -125,6 +125,6 @@ void ledrgb_clearBlueLed(void)
 void ledrgb_setBlueLed(void)
 {
     /* set desired led */
-    GPIO_HAL_ClearPinOutput(PTD, BLUE_LED_PIN);
+    GPIO_HAL_ClearPinOutput(PTB, BLUE_LED_PIN);
 }
 

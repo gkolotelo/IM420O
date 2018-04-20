@@ -7,7 +7,7 @@
 **     Version     : Component 1.3.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-20, 18:27, # CodeGen: 1
+**     Date/Time   : 2018-04-20, 19:30, # CodeGen: 10
 **     Contents    :
 **         Init - osa_status_t Task_BlueLed_Init(void);
 **
@@ -65,7 +65,7 @@
 /* Task_BlueLed task stack size */  
 #define TASK_BLUELED_TASK_STACK_SIZE   1024U
 /* Task_BlueLed task priority value */  
-#define TASK_BLUELED_TASK_PRIORITY     10U
+#define TASK_BLUELED_TASK_PRIORITY     16U
 /*
 ** ===================================================================
 **     Method      :  Init (component OS_Task)
