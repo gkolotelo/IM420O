@@ -37,9 +37,8 @@
 #include "osa1.h"
 #include "free_rtos.h"
 #include "MainTask.h"
-#include "Task_BlueLed.h"
-#include "Task_GreenLed.h"
-#include "Task_RedLed.h"
+#include "task_blue_LED_ON.h"
+#include "task_blue_LED_OFF.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -130,6 +129,28 @@ void Task_GreenLed_entry(os_task_param_t task_init_data);
 */
 /* ===================================================================*/
 void Task_BlueLed_entry(os_task_param_t task_init_data);
+
+/*
+** ===================================================================
+**     Callback    : task_blue_LED_OFF_entry
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void task_blue_LED_OFF_entry(os_task_param_t task_init_data);
+
+/*
+** ===================================================================
+**     Callback    : task_blue_LED_ON_entry
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void task_blue_LED_ON_entry(os_task_param_t task_init_data);
 
 /* END os_tasks */
 

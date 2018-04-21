@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : K64P144M120SF5RM, Rev.2, January 2014
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-20, 20:20, # CodeGen: 0
+**     Date/Time   : 2018-04-20, 21:59, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -67,8 +67,8 @@
 /* {Default RTOS Adapter} No RTOS includes */
 #include "Cpu.h"
 #include "Events.h"
-#include "os_tasks.h"
 #include "rtos_main_task.h"
+#include "os_tasks.h"
 
 
 #ifdef __cplusplus
@@ -109,15 +109,12 @@ void Common_Init(void)
 void Components_Init(void)
 {
 
-  /*! Task_BlueLed Auto initialization start */ 
-  (void)Task_BlueLed_Init();
-  /*! Task_BlueLed Auto initialization end */                       
-  /*! Task_GreenLed Auto initialization start */ 
-  (void)Task_GreenLed_Init();
-  /*! Task_GreenLed Auto initialization end */                       
-  /*! Task_RedLed Auto initialization start */ 
-  (void)Task_RedLed_Init();
-  /*! Task_RedLed Auto initialization end */                       
+  /*! task_blue_LED_ON Auto initialization start */ 
+  (void)task_blue_LED_ON_Init();
+  /*! task_blue_LED_ON Auto initialization end */                       
+  /*! task_blue_LED_OFF Auto initialization start */ 
+  (void)task_blue_LED_OFF_Init();
+  /*! task_blue_LED_OFF Auto initialization end */                       
 }
 #endif /* CPU_COMPONENTS_INIT */
 

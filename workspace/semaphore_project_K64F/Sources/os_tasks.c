@@ -39,159 +39,114 @@ extern "C" {
 #endif 
 
 
-int i = 0;
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
+extern semaphore_t blue_led_sema_handle;
+
+#define DISABLE_SEMAPHORE 0
 
 /*
 ** ===================================================================
-**     Event       :  Task_RedLed_entry (module os_tasks)
-**
-**     Component   :  Task_RedLed [OS_Task]
-*/
-/*!
-**     @brief
-**         RTOS task routine. The routine is generated into os_tasks.c
-**         file.
-**     @param
-**         task_init_data  - Parameter to be passed to the
-**         task when it is created.
-*/
-/* ===================================================================*/
-void Task_RedLed_entry(os_task_param_t task_init_data)
-{
-  /* Write your local variable definition here */
-  
-	uint16_t led_delay = 200;
-	uint16_t state = 1;
-
-	ledrgb_clearRedLed();
-
-
-	#ifdef PEX_USE_RTOS
-	  while (1) {
-	#endif
-	    /* Write your code here ... */
-
-		  if(state == 1)
-		  {
-			  ledrgb_setRedLed();
-			  state = 2;
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
-		  }
-		  if(state == 2)
-		  {
-			  ledrgb_clearRedLed();
-			  state = 1;
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
-		  }
-
-    
-    
-#ifdef PEX_USE_RTOS   
-  }
-#endif    
-}
-
-/*
+**     Callback    : task_blue_LED_OFF_entry
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
 ** ===================================================================
-**     Event       :  Task_GreenLed_entry (module os_tasks)
-**
-**     Component   :  Task_GreenLed [OS_Task]
 */
-/*!
-**     @brief
-**         RTOS task routine. The routine is generated into os_tasks.c
-**         file.
-**     @param
-**         task_init_data  - Parameter to be passed to the
-**         task when it is created.
-*/
-/* ===================================================================*/
-void Task_GreenLed_entry(os_task_param_t task_init_data)
+void task_blue_LED_OFF_entry(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
 
-	uint16_t led_delay = 100;
-	uint16_t state = 1;
-
-	ledrgb_clearGreenLed();
-
-
-	#ifdef PEX_USE_RTOS
-	  while (1) {
-	#endif
-	    /* Write your code here ... */
-
-		  if(state == 1)
-		  {
-			  ledrgb_setGreenLed();
-			  state = 2;
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
-		  }
-		  if(state == 2)
-		  {
-			  ledrgb_clearGreenLed();
-			  state = 1;
-			  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
-		  }
-    
-    
-#ifdef PEX_USE_RTOS   
-  }
-#endif    
-}
-
-/*
-** ===================================================================
-**     Event       :  Task_BlueLed_entry (module os_tasks)
-**
-**     Component   :  Task_BlueLed [OS_Task]
-*/
-/*!
-**     @brief
-**         RTOS task routine. The routine is generated into os_tasks.c
-**         file.
-**     @param
-**         task_init_data  - Parameter to be passed to the
-**         task when it is created.
-*/
-/* ===================================================================*/
-void Task_BlueLed_entry(os_task_param_t task_init_data)
-{
-  /* Write your local variable definition here */
-
-	uint16_t led_delay = 1000;
-	uint16_t state = 1;
-
-	ledrgb_clearBlueLed();
-
-	// Force delay:
-	for(int i=0;i<10000000;i++)__asm("nop");
+	int state = 1;
   
 #ifdef PEX_USE_RTOS
   while (1) {
 #endif
     /* Write your code here ... */
-    
-	  if(state == 1)
-	  {
-		  ledrgb_setBlueLed();
-		  state = 2;
-		  for(int i=0; i<10000000; i++)__asm("nop");
-	  }
-	  if(state == 2)
-	  {
-		  ledrgb_clearBlueLed();
-		  state = 1;
-		  for(int i=0; i<10000000; i++)__asm("nop");
-	  }
 
-	  OSA_TimeDelay(led_delay);                 /* Example code (for task release) */
+	switch(state){
+		  case 1: // Acquire semaphore token
+			  if(DISABLE_SEMAPHORE)
+			  {
+				  state = 2;
+				  break;
+			  }
+			  if(OSA_SemaWait(&blue_led_sema_handle,1000) == kStatus_OSA_Success)
+			  {
+				  ledrgb_clearRedLed();
+				  state = 2;
+			  }
+			  else
+			  {
+				  ledrgb_setRedLed();
+			  }
+
+			  break;
+
+		  case 2: // Clear LED and Release token
+			  ledrgb_clearBlueLed();
+			  for(int i=0; i<10000000; i++)__asm("nop"); // 1 sec
+			  if(!DISABLE_SEMAPHORE)OSA_SemaPost(&blue_led_sema_handle);
+			  OSA_TimeDelay(10);
+			  state = 1;
+			  break;
+	  }
    
     
     
+    
+#ifdef PEX_USE_RTOS   
+  }
+#endif    
+}
+
+/*
+** ===================================================================
+**     Callback    : task_blue_LED_ON_entry
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void task_blue_LED_ON_entry(os_task_param_t task_init_data)
+{
+  /* Write your local variable definition here */
+
+	int state = 1;
+  
+#ifdef PEX_USE_RTOS
+  while (1) {
+#endif
+	  /* Write your code here ... */
+
+	  switch(state){
+		  case 1: // Acquire semaphore token
+			  if(DISABLE_SEMAPHORE)
+			  {
+				  state = 2;
+				  break;
+			  }
+			  if(OSA_SemaWait(&blue_led_sema_handle,OSA_WAIT_FOREVER) == kStatus_OSA_Success)
+			  {
+				  state = 2;
+			  }
+			  break;
+
+		  case 2: // Set LED and wait
+			  ledrgb_setBlueLed();
+			  OSA_TimeDelay(4000);
+			  state = 3;
+			  break;
+
+		  case 3: // Release token
+			  if(!DISABLE_SEMAPHORE)OSA_SemaPost(&blue_led_sema_handle);
+			  OSA_TimeDelay(10);
+			  state = 1;
+	  }
+   
     
 #ifdef PEX_USE_RTOS   
   }

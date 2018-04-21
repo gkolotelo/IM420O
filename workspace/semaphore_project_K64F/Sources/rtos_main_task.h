@@ -33,12 +33,11 @@
 #include "fsl_device_registers.h"
 #include "clockMan1.h"
 #include "pin_init.h"
-#include "Task_BlueLed.h"
-#include "Task_GreenLed.h"
-#include "Task_RedLed.h"
 #include "osa1.h"
 #include "free_rtos.h"
 #include "MainTask.h"
+#include "task_blue_LED_ON.h"
+#include "task_blue_LED_OFF.h"
 
 #ifdef __cplusplus
 extern "C" {

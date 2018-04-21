@@ -84,14 +84,13 @@
     <GeneratedCs>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\Cpu.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\MainTask.c</PathName>
-      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\Task_BlueLed.c</PathName>
-      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\Task_GreenLed.c</PathName>
-      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\Task_RedLed.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\clockMan1.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\free_rtos.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\hardware_init.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\osa1.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\pin_init.c</PathName>
+      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\task_blue_LED_OFF.c</PathName>
+      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\task_blue_LED_ON.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\SDK\platform\devices\MK64F12\startup\system_MK64F12.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\SDK\platform\devices\startup.c</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
@@ -136,14 +135,13 @@
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\PE_low_level_init.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\SDK\platform\devices\MK64F12\startup\system_MK64F12.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\SDK\rtos\FreeRTOS\config\FreeRTOSConfig.h</PathName>
-      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\Task_BlueLed.h</PathName>
-      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\Task_GreenLed.h</PathName>
-      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\Task_RedLed.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\board.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\clockMan1.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\free_rtos.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\osa1.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\pin_init.h</PathName>
+      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\task_blue_LED_OFF.h</PathName>
+      <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\Generated_Code\task_blue_LED_ON.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\SDK\platform\CMSIS\Include\arm_const_structs.h</PathName>
       <PathName>D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\workspace\semaphore_project_K64F\SDK\platform\CMSIS\Include\arm_math.h</PathName>

@@ -37,9 +37,8 @@
 #include "osa1.h"
 #include "free_rtos.h"
 #include "MainTask.h"
-#include "Task_BlueLed.h"
-#include "Task_GreenLed.h"
-#include "Task_RedLed.h"
+#include "task_blue_LED_ON.h"
+#include "task_blue_LED_OFF.h"
 
 
 #if CPU_INIT_CONFIG
@@ -48,6 +47,12 @@
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
 #include "hal/led/ledrgb_hal.h"
+
+/* Global variables */
+
+/* Semaphore handles */
+/* Blue LED treated as shared resource */
+semaphore_t blue_led_sema_handle;
 
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
@@ -62,6 +67,13 @@ int main(void)
 
   /* Write your code here */
   ledrgb_init();
+
+
+  /* Semaphore setup */
+  OSA_SemaCreate(&blue_led_sema_handle,1); // Binary semaphore. LED initializes cleared (available)
+
+
+
   /* For example: for(;;) { } */
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
