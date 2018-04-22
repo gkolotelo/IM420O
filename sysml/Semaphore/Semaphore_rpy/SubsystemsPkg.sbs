@@ -1,0 +1,1446 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
+	- _myState = 8192;
+	- _name = "SubsystemsPkg";
+	- _objectCreation = "5323285222120181613505453";
+	- _umlDependencyID = "3014";
+	- _lastID = 8;
+	- Declaratives = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ ISubsystem 
+			- fileName = "task_blue_LED_OFF";
+			- _id = GUID b0feb7e8-fe99-4496-9988-9c62d3e6fdb6;
+		}
+		{ ISubsystem 
+			- fileName = "task_blue_LED_ON";
+			- _id = GUID 78b75930-b396-4e61-9a93-b085cd95cd4c;
+		}
+		{ IDiagram 
+			- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Depends";
+								- Properties = { IRPYRawContainer 
+									- size = 6;
+									- value = 
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,128";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "10";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,16,230";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineStyle";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Flow";
+								- Properties = { IRPYRawContainer 
+									- size = 6;
+									- value = 
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,128";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "10";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,112,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineStyle";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Object";
+								- Properties = { IRPYRawContainer 
+									- size = 9;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,34,84,148";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "255,255,255";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "10";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Underline@Child.NameCompartment@Name";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "121,122,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineStyle";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Subsystem Architecture";
+			- _objectCreation = "5323447222120181613343453";
+			- _umlDependencyID = "3860";
+			- _lastModifiedTime = "4.22.2018::19:21:22";
+			- _graphicChart = { CGIClassChart 
+				- _id = GUID 5fe57b74-2d92-479a-9d60-2261dac5f127;
+				- m_type = 0;
+				- m_pModelObject = { IHandle 
+					- _m2Class = "IDiagram";
+					- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
+				}
+				- m_pParent = ;
+				- m_name = { CGIText 
+					- m_str = "";
+					- m_style = "Arial" 10 0 0 0 1 ;
+					- m_color = { IColor 
+						- m_fgColor = 0;
+						- m_bgColor = 0;
+						- m_bgFlag = 0;
+					}
+					- m_position = 1 0 0  ;
+					- m_nIdent = 0;
+					- m_bImplicitSetRectPoints = 0;
+					- m_nOrientationCtrlPt = 8;
+				}
+				- m_drawBehavior = 0;
+				- m_bIsPreferencesInitialized = 0;
+				- elementList = 12;
+				{ CGIClass 
+					- _id = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_type = 78;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "TopLevel";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 0;
+					- m_bIsPreferencesInitialized = 0;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 0 ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 76faef1d-a930-4894-9c61-be47dddab6cc;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "task_blue_LED_OFF.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+						- _class = "TopLevel";
+						- _name = "task_blue_LED_OFF";
+						- _id = GUID 222423fe-2629-4007-a6b1-30f4d5797652;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "task_blue_LED_OFF::task_blue_LED_OFF";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.27762 0 0 0.12358 1013.44 264.343 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=27%,73%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_blue_LED_OFF.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF";
+							- _name = "state";
+							- _id = GUID aaa2ec20-a326-4b1e-9d0f-1b20641649af;
+						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_blue_LED_OFF.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF";
+							- _name = "status";
+							- _id = GUID 144068ff-b4d1-41e3-9d35-cdba1e9712fb;
+						}
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "task_blue_LED_OFF.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF";
+							- _name = "ledrgb_init()";
+							- _id = GUID d67c428e-8de7-415e-bce8-4ffa9ed1786e;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "task_blue_LED_OFF.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF";
+							- _name = "ledrgb_setBlueLed()";
+							- _id = GUID 08252891-1b30-4818-b290-39edf7a7d63d;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "task_blue_LED_OFF.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF";
+							- _name = "ledrgb_clearBlueLed()";
+							- _id = GUID 34d512ba-bc20-4545-9499-1e41d37c4851;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 0267460f-55d0-481f-846a-8f52083a3d50;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "task_blue_LED_ON.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+						- _class = "TopLevel";
+						- _name = "task_blue_LED_ON";
+						- _id = GUID 1b0c336a-1498-447d-ac4f-70a45cb34892;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "task_blue_LED_ON::task_blue_LED_ON";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.27762 0 0 0.12358 607.445 264.686 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=28%,72%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_blue_LED_ON.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+							- _class = "TopLevel.task_blue_LED_ON";
+							- _name = "state";
+							- _id = GUID 2b879123-7a99-40ba-a4ea-7ae584f3dec8;
+						}
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "task_blue_LED_ON.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+							- _class = "TopLevel.task_blue_LED_ON";
+							- _name = "ledrgb_init()";
+							- _id = GUID b236b679-ce1c-4499-ada1-1584e1c244fd;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "task_blue_LED_ON.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+							- _class = "TopLevel.task_blue_LED_ON";
+							- _name = "ledrgb_clearBlueLed()";
+							- _id = GUID 148fadbe-423d-4134-b609-8d641d97a5cc;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "task_blue_LED_ON.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+							- _class = "TopLevel.task_blue_LED_ON";
+							- _name = "ledrgb_setBlueLed()";
+							- _id = GUID effa3358-9a25-4b29-90b5-21174dce0963;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "FRDM_K64F.sbs";
+						- _subsystem = "SubsystemsPkg::FRDM_K64F";
+						- _class = "TopLevel";
+						- _name = "BlueLED";
+						- _id = GUID 1728af87-26e8-4ba8-a50d-43e316b614b1;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "FRDM_K64F::BlueLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2632;
+					- m_transform = 0.247403 0 0 0.127451 543.505 561.069 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=32%,68%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "blue_led_sema_handle";
+							- _id = GUID 7f7937a8-0d85-438f-8cca-6f21c73d5edf;
+						}
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "ledrgb_init()";
+							- _id = GUID 14c6d06d-492b-497e-acab-3775073713a8;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "ledrgb_setBlueLed()";
+							- _id = GUID 83016161-167a-4555-a8f5-5ffedc648f3e;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "ledrgb_clearBlueLed()";
+							- _id = GUID ddeb80c9-3863-49fe-8f7f-d7a2fa916811;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "FreeRTOS_kernel.sbs";
+						- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+						- _class = "TopLevel";
+						- _name = "blue_led_sema_handle";
+						- _id = GUID 3d48bb07-9a09-4370-9f38-6b8a0a792667;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "FreeRTOS_kernel::blue_led_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.452314 0 0 0.129234 987.099 559.482 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=28%,72%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FreeRTOS_kernel.sbs";
+							- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+							- _class = "TopLevel.blue_led_sema_handle";
+							- _name = "OSA_SemaWait(semaphore_t,unsigned int)";
+							- _id = GUID 671a1171-5959-4e60-8af9-b9bb643ff0ff;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FreeRTOS_kernel.sbs";
+							- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+							- _class = "TopLevel.blue_led_sema_handle";
+							- _name = "OSA_SemaPost(semaphore_t)";
+							- _id = GUID a0d10bc4-d394-45b4-bfce-0ace991901e3;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FreeRTOS_kernel.sbs";
+							- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+							- _class = "TopLevel.blue_led_sema_handle";
+							- _name = "OSA_SemaCreate(semaphore_t,unsigned int)";
+							- _id = GUID ab5a7024-0817-483a-b9ca-f65d08e51e88;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIInheritance 
+					- _id = GUID adc48a18-6df8-416e-a038-de6b85a0e775;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "FRDM_K64F.sbs";
+						- _subsystem = "SubsystemsPkg::FRDM_K64F";
+						- _class = "TopLevel.BlueLED";
+						- _name = "blue_led_sema_handle";
+						- _id = GUID fc7df730-172b-4da9-8a8f-466c8c5e46f7;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 1053 957 ;
+					- m_TargetPort = 45 956 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 813d29f8-ce62-4725-9d13-02839adcbcf2;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_OFF.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF";
+						- _name = "blue_led_sema_handle";
+						- _id = GUID 8ee5435a-1e16-4eea-b8e2-ea883f23b1db;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 76faef1d-a930-4894-9c61-be47dddab6cc;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 492 1405 ;
+					- m_TargetPort = 362 375 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID cc3476e7-6d44-4998-9d6d-16bea99694f7;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_ON.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+						- _class = "TopLevel.task_blue_LED_ON";
+						- _name = "blue_led_sema_handle";
+						- _id = GUID aa581094-b5b1-4738-a04a-e648fd0a05bb;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 0267460f-55d0-481f-846a-8f52083a3d50;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 744 467  1134 467  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 492 1402 ;
+					- m_TargetPort = 325 344 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 7cc05843-935e-4d7d-bcf8-bafcf444750d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_OFF.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF";
+						- _name = "BlueLED";
+						- _id = GUID 1eef0ca3-3c08-4f40-881a-68ee7c5dda15;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "BlueLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 76faef1d-a930-4894-9c61-be47dddab6cc;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 1083 559  740 559  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 251 1446 ;
+					- m_TargetPort = 794 345 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 2a6d031d-e171-4cf4-b2f6-7252252169ec;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_ON.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+						- _class = "TopLevel.task_blue_LED_ON";
+						- _name = "BlueLED";
+						- _id = GUID edb3942b-8e23-495a-8c08-49fe5b0e51f0;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "BlueLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 0267460f-55d0-481f-846a-8f52083a3d50;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 315 1419 ;
+					- m_TargetPort = 608 329 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 818fa0a8-1db3-4516-b3e4-81eea1beea7d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "FRDM_K64F.sbs";
+						- _subsystem = "SubsystemsPkg::FRDM_K64F";
+						- _class = "TopLevel";
+						- _name = "RedLED";
+						- _id = GUID c60f4f95-abc9-4ba3-9159-41c3f30d262c;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "FRDM_K64F::RedLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2632;
+					- m_transform = 0.247403 0 0 0.127451 1032.51 21.069 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=32%,68%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.RedLED";
+							- _name = "ledrgb_init()";
+							- _id = GUID b10dc4aa-260d-4fd7-ae9a-39128a72decb;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.RedLED";
+							- _name = "ledrgb_setRedLed()";
+							- _id = GUID b7141349-a1c2-44ec-a4b2-ec49fdaf9003;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.RedLED";
+							- _name = "ledrgb_clearRedLed()";
+							- _id = GUID 1ce6f7c5-0c2d-43ea-b924-a62ee2516b4e;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIInheritance 
+					- _id = GUID 9a5a2ef9-5a22-45b0-8290-de10178df4fd;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_OFF.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF";
+						- _name = "RedLED";
+						- _id = GUID 8773f186-0fbf-4d72-a59c-bd5bf4f88b80;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "RedLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 76faef1d-a930-4894-9c61-be47dddab6cc;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 818fa0a8-1db3-4516-b3e4-81eea1beea7d;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 445 369 ;
+					- m_TargetPort = 426 1404 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				
+				- m_access = 'Z';
+				- m_modified = 'N';
+				- m_fileVersion = "";
+				- m_nModifyDate = 0;
+				- m_nCreateDate = 0;
+				- m_creator = "";
+				- m_bScaleWithZoom = 1;
+				- m_arrowStyle = 'S';
+				- m_pRoot = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+				- m_currentLeftTop = 0 0 ;
+				- m_currentRightBottom = 0 0 ;
+			}
+			- _defaultSubsystem = { IHandle 
+				- _m2Class = "ISubsystem";
+				- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
+			}
+		}
+		{ ISubsystem 
+			- fileName = "FreeRTOS_kernel";
+			- _id = GUID fb0e6e69-284a-4c42-ae93-a01a7a7cbdaa;
+		}
+		{ ISubsystem 
+			- fileName = "FRDM_K64F";
+			- _id = GUID 892f86bb-00f1-45de-8343-2d2101cfb66e;
+		}
+		{ IInformationFlow 
+			- _id = GUID 4b99670d-aca2-493b-a509-0cf98dd4b020;
+			- _myState = 2048;
+			- _name = "task_blue_LED_ON_BlueLED";
+			- _objectCreation = "5323449222120181613341453";
+			- _umlDependencyID = "3848";
+			- end1_ = { IHandle 
+				- _m2Class = "IPart";
+				- _filename = "task_blue_LED_ON.sbs";
+				- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+				- _class = "TopLevel";
+				- _name = "task_blue_LED_ON";
+				- _id = GUID 1b0c336a-1498-447d-ac4f-70a45cb34892;
+			}
+			- end2_ = { IHandle 
+				- _m2Class = "IPart";
+				- _filename = "FRDM_K64F.sbs";
+				- _subsystem = "SubsystemsPkg::FRDM_K64F";
+				- _class = "TopLevel";
+				- _name = "BlueLED";
+				- _id = GUID 1728af87-26e8-4ba8-a50d-43e316b614b1;
+			}
+			- direction_ = toEnd2;
+		}
+		{ IInformationFlow 
+			- _id = GUID ce953bee-a578-4c6b-8847-ee6d6f506956;
+			- _myState = 2048;
+			- _name = "task_blue_LED_OFF_BlueLED";
+			- _objectCreation = "5323451222120181613339453";
+			- _umlDependencyID = "3910";
+			- end1_ = { IHandle 
+				- _m2Class = "IPart";
+				- _filename = "task_blue_LED_OFF.sbs";
+				- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+				- _class = "TopLevel";
+				- _name = "task_blue_LED_OFF";
+				- _id = GUID 222423fe-2629-4007-a6b1-30f4d5797652;
+			}
+			- end2_ = { IHandle 
+				- _m2Class = "IPart";
+				- _filename = "FRDM_K64F.sbs";
+				- _subsystem = "SubsystemsPkg::FRDM_K64F";
+				- _class = "TopLevel";
+				- _name = "BlueLED";
+				- _id = GUID 1728af87-26e8-4ba8-a50d-43e316b614b1;
+			}
+			- direction_ = toEnd2;
+		}
+	}
+	- weakCGTime = 4.22.2018::19:20:39;
+	- strongCGTime = 4.3.2018::17:52:53;
+	- _defaultComposite = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "5323453222120181613337453";
+			- _umlDependencyID = "2445";
+			- weakCGTime = 4.22.2018::17:5:50;
+			- strongCGTime = 4.3.2018::17:52:53;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID af351615-d73c-4086-9c1b-9cd8465ef2db;
+			- _myState = 8192;
+			- _name = "semaphore_t";
+			- _objectCreation = "5323455222120181613335453";
+			- _umlDependencyID = "2809";
+			- _declaration = "";
+			- _kind = Language;
+		}
+	}
+	- _configurationRelatedTime = 4.22.2018::17:5:50;
+}
+

@@ -1,0 +1,16 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 9;
+	- value = "Projects.rpl" ""
+	"Semaphore.rpy" ""
+	"Semaphore_rpy\\Default.sbs" "Default"
+	"Semaphore_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"Semaphore_rpy\\FRDM_K64F.sbs" "SubsystemsPkg::FRDM_K64F"
+	"Semaphore_rpy\\FreeRTOS_kernel.sbs" "SubsystemsPkg::FreeRTOS_kernel"
+	"Semaphore_rpy\\SubsystemsPkg.sbs" "SubsystemsPkg"
+	"Semaphore_rpy\\task_blue_LED_OFF.sbs" "SubsystemsPkg::task_blue_LED_OFF"
+	"Semaphore_rpy\\task_blue_LED_ON.sbs" "SubsystemsPkg::task_blue_LED_ON"
+	
+}
+

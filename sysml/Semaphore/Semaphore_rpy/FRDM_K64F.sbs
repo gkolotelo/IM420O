@@ -1,0 +1,357 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "SubsystemsPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "SubsystemsPkg";
+		- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
+	}
+	- _id = GUID 892f86bb-00f1-45de-8343-2d2101cfb66e;
+	- _myState = 8192;
+	- _name = "FRDM_K64F";
+	- _objectCreation = "8319252262018142136148";
+	- _umlDependencyID = "2133";
+	- weakCGTime = 4.22.2018::17:5:50;
+	- strongCGTime = 4.22.2018::17:5:50;
+	- _defaultComposite = GUID 36212a14-3fa1-462e-b316-9fd7fd26190f;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 36212a14-3fa1-462e-b316-9fd7fd26190f;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "8319272262018142135948";
+			- _umlDependencyID = "2310";
+			- weakCGTime = 4.22.2018::17:5:50;
+			- strongCGTime = 12.31.1969::22:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPart 
+					- _id = GUID 1728af87-26e8-4ba8-a50d-43e316b614b1;
+					- _myState = 8192;
+					- _name = "BlueLED";
+					- _objectCreation = "8319292262018142135748";
+					- _umlDependencyID = "2104";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 752ff95e-d82c-421f-9681-e190cf98db85;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 752ff95e-d82c-421f-9681-e190cf98db85;
+						- _myState = 10240;
+						- _name = "BlueLED";
+						- _objectCreation = "8319312262018142135548";
+						- _umlDependencyID = "2095";
+						- Dependencies = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IDependency 
+								- _id = GUID fc7df730-172b-4da9-8a8f-466c8c5e46f7;
+								- _myState = 2048;
+								- _name = "blue_led_sema_handle";
+								- _objectCreation = "8319332262018142135348";
+								- _umlDependencyID = "3550";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _filename = "FreeRTOS_kernel.sbs";
+									- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+									- _class = "TopLevel";
+									- _name = "blue_led_sema_handle";
+									- _id = GUID a429bcc3-54f8-41f2-8656-5a449837fc4d;
+								}
+							}
+						}
+						- Stereotypes = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IHandle 
+								- _m2Class = "IStereotype";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "Resource";
+								- _id = GUID e08992d0-4907-4906-bfc2-076632744dcc;
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IDiagram";
+							- _filename = "SubsystemsPkg.sbs";
+							- _subsystem = "SubsystemsPkg";
+							- _class = "";
+							- _name = "Subsystem Architecture";
+							- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
+						}
+						- _lastID = 6;
+						- weakCGTime = 4.22.2018::16:47:58;
+						- strongCGTime = 4.22.2018::16:35:48;
+						- Operations = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IPrimitiveOperation 
+								- _id = GUID 14c6d06d-492b-497e-acab-3775073713a8;
+								- _myState = 8192;
+								- _name = "ledrgb_init";
+								- _objectCreation = "8319352262018142135148";
+								- _umlDependencyID = "2645";
+								- _virtual = 0;
+								- Args = { IRPYRawContainer 
+									- size = 0;
+								}
+								- _returnType = { IHandle 
+									- _m2Class = "IType";
+									- _filename = "PredefinedTypesC++.sbs";
+									- _subsystem = "PredefinedTypesCpp";
+									- _class = "";
+									- _name = "void";
+									- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+								}
+								- _abstract = 0;
+								- _final = 0;
+								- _concurrency = Sequential;
+								- _protection = iPublic;
+								- _static = 0;
+								- _constant = 0;
+							}
+							{ IPrimitiveOperation 
+								- _id = GUID 83016161-167a-4555-a8f5-5ffedc648f3e;
+								- _myState = 8192;
+								- _name = "ledrgb_setBlueLed";
+								- _objectCreation = "8319372262018142134948";
+								- _umlDependencyID = "3219";
+								- _virtual = 0;
+								- Args = { IRPYRawContainer 
+									- size = 0;
+								}
+								- _returnType = { IHandle 
+									- _m2Class = "IType";
+									- _filename = "PredefinedTypesC++.sbs";
+									- _subsystem = "PredefinedTypesCpp";
+									- _class = "";
+									- _name = "void";
+									- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+								}
+								- _abstract = 0;
+								- _final = 0;
+								- _concurrency = Sequential;
+								- _protection = iPublic;
+								- _static = 0;
+								- _constant = 0;
+							}
+							{ IPrimitiveOperation 
+								- _id = GUID ddeb80c9-3863-49fe-8f7f-d7a2fa916811;
+								- _myState = 8192;
+								- _name = "ledrgb_clearBlueLed";
+								- _objectCreation = "8319392262018142134748";
+								- _umlDependencyID = "3406";
+								- _virtual = 0;
+								- Args = { IRPYRawContainer 
+									- size = 0;
+								}
+								- _returnType = { IHandle 
+									- _m2Class = "IType";
+									- _filename = "PredefinedTypesC++.sbs";
+									- _subsystem = "PredefinedTypesCpp";
+									- _class = "";
+									- _name = "void";
+									- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+								}
+								- _abstract = 0;
+								- _final = 0;
+								- _concurrency = Sequential;
+								- _protection = iPublic;
+								- _static = 0;
+								- _constant = 0;
+							}
+						}
+						- Attrs = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IAttribute 
+								- _id = GUID 7f7937a8-0d85-438f-8cca-6f21c73d5edf;
+								- _name = "blue_led_sema_handle";
+								- _objectCreation = "8319412262018142134548";
+								- _umlDependencyID = "3550";
+								- ValueSpecifications = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ ILiteralSpecification 
+										- _id = GUID 26f46ea0-bd90-40ac-88d4-097da4e2e14a;
+										- _objectCreation = "8319432262018142134348";
+										- _umlDependencyID = "1490";
+										- _value = "1";
+									}
+								}
+								- _typeOf = { IHandle 
+									- _m2Class = "IType";
+									- _filename = "SubsystemsPkg.sbs";
+									- _subsystem = "SubsystemsPkg";
+									- _class = "";
+									- _name = "semaphore_t";
+									- _id = GUID af351615-d73c-4086-9c1b-9cd8465ef2db;
+								}
+								- _isOrdered = 0;
+								- _protection = iPublic;
+								- _static = 0;
+								- _isReference = 0;
+								- _isConstant = 0;
+							}
+						}
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID c60f4f95-abc9-4ba3-9159-41c3f30d262c;
+					- _myState = 8192;
+					- _name = "RedLED";
+					- _objectCreation = "8319452262018142134148";
+					- _umlDependencyID = "1986";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b5e7c9e4-3c5d-486a-9e2f-07d0a3c5d934;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID b5e7c9e4-3c5d-486a-9e2f-07d0a3c5d934;
+						- _myState = 10240;
+						- _name = "RedLED";
+						- _objectCreation = "8319472262018142133948";
+						- _umlDependencyID = "1995";
+						- Dependencies = { IRPYRawContainer 
+							- size = 0;
+						}
+						- Stereotypes = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IHandle 
+								- _m2Class = "IStereotype";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "Resource";
+								- _id = GUID e08992d0-4907-4906-bfc2-076632744dcc;
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IDiagram";
+							- _filename = "SubsystemsPkg.sbs";
+							- _subsystem = "SubsystemsPkg";
+							- _class = "";
+							- _name = "Subsystem Architecture";
+							- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
+						}
+						- _lastID = 6;
+						- weakCGTime = 4.22.2018::17:4:59;
+						- strongCGTime = 4.22.2018::17:4:13;
+						- Operations = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IPrimitiveOperation 
+								- _id = GUID b10dc4aa-260d-4fd7-ae9a-39128a72decb;
+								- _myState = 8192;
+								- _name = "ledrgb_init";
+								- _objectCreation = "8319492262018142133748";
+								- _umlDependencyID = "2654";
+								- _virtual = 0;
+								- Args = { IRPYRawContainer 
+									- size = 0;
+								}
+								- _returnType = { IHandle 
+									- _m2Class = "IType";
+									- _filename = "PredefinedTypesC++.sbs";
+									- _subsystem = "PredefinedTypesCpp";
+									- _class = "";
+									- _name = "void";
+									- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+								}
+								- _abstract = 0;
+								- _final = 0;
+								- _concurrency = Sequential;
+								- _protection = iPublic;
+								- _static = 0;
+								- _constant = 0;
+							}
+							{ IPrimitiveOperation 
+								- _id = GUID b7141349-a1c2-44ec-a4b2-ec49fdaf9003;
+								- _myState = 8192;
+								- _name = "ledrgb_setRedLed";
+								- _objectCreation = "8319512262018142133548";
+								- _umlDependencyID = "3101";
+								- _virtual = 0;
+								- Args = { IRPYRawContainer 
+									- size = 0;
+								}
+								- _returnType = { IHandle 
+									- _m2Class = "IType";
+									- _filename = "PredefinedTypesC++.sbs";
+									- _subsystem = "PredefinedTypesCpp";
+									- _class = "";
+									- _name = "void";
+									- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+								}
+								- _abstract = 0;
+								- _final = 0;
+								- _concurrency = Sequential;
+								- _protection = iPublic;
+								- _static = 0;
+								- _constant = 0;
+							}
+							{ IPrimitiveOperation 
+								- _id = GUID 1ce6f7c5-0c2d-43ea-b924-a62ee2516b4e;
+								- _myState = 8192;
+								- _name = "ledrgb_clearRedLed";
+								- _objectCreation = "8319532262018142133348";
+								- _umlDependencyID = "3288";
+								- _virtual = 0;
+								- Args = { IRPYRawContainer 
+									- size = 0;
+								}
+								- _returnType = { IHandle 
+									- _m2Class = "IType";
+									- _filename = "PredefinedTypesC++.sbs";
+									- _subsystem = "PredefinedTypesCpp";
+									- _class = "";
+									- _name = "void";
+									- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+								}
+								- _abstract = 0;
+								- _final = 0;
+								- _concurrency = Sequential;
+								- _protection = iPublic;
+								- _static = 0;
+								- _constant = 0;
+							}
+						}
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 4.22.2018::16:43:46;
+}
+
