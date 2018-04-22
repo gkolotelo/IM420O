@@ -1,42 +1,28 @@
-04, 22, 2018 (16:21:53): Starting Pre-Save actions
+04, 22, 2018 (17:05:56): Starting Pre-Save actions
 
-04, 22, 2018 (16:21:53): Starting Dialogs Check/Save
-04, 22, 2018 (16:21:53): Finished Dialogs Check/Save
-04, 22, 2018 (16:21:53): Starting Controlled Files Resolution
-04, 22, 2018 (16:21:53): Finished Controlled Files Resolution
-04, 22, 2018 (16:21:53): Finished Pre-Save actions
+04, 22, 2018 (17:05:56): Starting Dialogs Check/Save
+04, 22, 2018 (17:05:56): Finished Dialogs Check/Save
+04, 22, 2018 (17:05:56): Starting Controlled Files Resolution
+04, 22, 2018 (17:05:56): Finished Controlled Files Resolution
+04, 22, 2018 (17:05:56): Finished Pre-Save actions
 
-04, 22, 2018 (16:21:53): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy
-04, 22, 2018 (16:21:53): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy on Sunday, April 22, 2018 (16:21:53)
+04, 22, 2018 (17:05:56): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy
+04, 22, 2018 (17:05:56): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy on Sunday, April 22, 2018 (17:05:56)
 
-04, 22, 2018 (16:21:53): version 8.5.2
-04, 22, 2018 (16:21:53): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\filesTable.dat on Sunday, April 22, 2018 (16:21:53)
+04, 22, 2018 (17:05:56): version 8.5.2
+04, 22, 2018 (17:05:56): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\filesTable.dat on Sunday, April 22, 2018 (17:05:56)
 
-04, 22, 2018 (16:21:53): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\filesTable.dat on Sunday, April 22, 2018 (16:21:53)
+04, 22, 2018 (17:05:56): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\filesTable.dat on Sunday, April 22, 2018 (17:05:56)
 
-04, 22, 2018 (16:21:53): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs
-04, 22, 2018 (16:21:53): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (16:21:53)
+04, 22, 2018 (17:05:56): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs
+04, 22, 2018 (17:05:56): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (17:05:56)
 
-04, 22, 2018 (16:21:53): version 8.5.2
-04, 22, 2018 (16:21:53): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_OFF.sbs
-04, 22, 2018 (16:21:53): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_OFF.sbs on Sunday, April 22, 2018 (16:21:53)
+04, 22, 2018 (17:05:56): version 8.5.2
+04, 22, 2018 (17:05:56): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (17:05:56)
 
-04, 22, 2018 (16:21:53): version 8.5.2
-04, 22, 2018 (16:21:53): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_OFF.sbs on Sunday, April 22, 2018 (16:21:53)
+04, 22, 2018 (17:05:56): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy on Sunday, April 22, 2018 (17:05:56)
 
-04, 22, 2018 (16:21:53): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_ON.sbs
-04, 22, 2018 (16:21:53): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_ON.sbs on Sunday, April 22, 2018 (16:21:53)
-
-04, 22, 2018 (16:21:53): version 8.5.2
-04, 22, 2018 (16:21:53): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_ON.sbs on Sunday, April 22, 2018 (16:21:53)
-
-04, 22, 2018 (16:21:53): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (16:21:53)
-
-04, 22, 2018 (16:21:53): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy on Sunday, April 22, 2018 (16:21:53)
-
-04, 22, 2018 (16:21:53): End Log
+04, 22, 2018 (17:05:56): End Log

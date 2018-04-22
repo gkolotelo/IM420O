@@ -1,176 +1,193 @@
-04, 22, 2018 (13:17:55): Opening rpy file C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypes.sbs
-04, 22, 2018 (13:17:55): 
- Started loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypes.sbs on Sunday, April 22, 2018 (13:17:55).-
+04, 22, 2018 (17:04:35): Opening rpy file C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypes.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypes.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:55): 
-
-Starting inUnit resolution phase
-
-
-04, 22, 2018 (13:17:55): 
-
-Finished inUnit resolution phase
-
-
-04, 22, 2018 (13:17:55): 
- Finished loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypes.sbs on Sunday, April 22, 2018 (13:17:55).-
-
-04, 22, 2018 (13:17:56): Opening rpy file C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypesC++.sbs
-04, 22, 2018 (13:17:56): 
- Started loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypesC++.sbs on Sunday, April 22, 2018 (13:17:56).-
-
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypesC++.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
+ Finished loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypes.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED.rpy
-04, 22, 2018 (13:17:56): 
- Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED.rpy on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): Opening rpy file C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypesC++.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypesC++.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Default.sbs
-04, 22, 2018 (13:17:56): 
- Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Default.sbs on Sunday, April 22, 2018 (13:17:56).-
-
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Default.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
+ Finished loading C:\Program Files (x86)\IBM\Rational\Rhapsody Modeler\7.5\Share\Properties\PredefinedTypesC++.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\SubsystemsPkg.sbs
-04, 22, 2018 (13:17:56): 
- Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_RedLedPkg.sbs
-04, 22, 2018 (13:17:56): 
- Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_RedLedPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\Default.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\Default.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_RedLedPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\Default.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_BlueLedPkg.sbs
-04, 22, 2018 (13:17:56): 
- Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_BlueLedPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_OFF.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_OFF.sbs on Sunday, April 22, 2018 (17:04:35).-
+
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_BlueLedPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_OFF.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_GreeLedPkg.sbs
-04, 22, 2018 (13:17:56): 
- Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_GreeLedPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_ON.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_ON.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\Task_GreeLedPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\task_blue_LED_ON.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\FreeRTOS_kernel.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\FreeRTOS_kernel.sbs on Sunday, April 22, 2018 (17:04:35).-
+
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\FreeRTOS_kernel.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\DefaultComponent.cmp
-04, 22, 2018 (13:17:56): 
- Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\DefaultComponent.cmp on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\FRDM_K64F.sbs
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\FRDM_K64F.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED_rpy\DefaultComponent.cmp on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\FRDM_K64F.sbs on Sunday, April 22, 2018 (17:04:35).-
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\SubsystemsPkg.sbs on Sunday, April 22, 2018 (17:04:35).-
+
+04, 22, 2018 (17:04:35): Opening rpy file D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\DefaultComponent.cmp
+04, 22, 2018 (17:04:35): 
+ Started loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\DefaultComponent.cmp on Sunday, April 22, 2018 (17:04:35).-
+
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore_rpy\DefaultComponent.cmp on Sunday, April 22, 2018 (17:04:35).-
+
+04, 22, 2018 (17:04:35): 
 
 Starting inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
+04, 22, 2018 (17:04:35): 
 
 Finished inUnit resolution phase
 
 
-04, 22, 2018 (13:17:56): 
- Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\LED.rpy on Sunday, April 22, 2018 (13:17:56).-
+04, 22, 2018 (17:04:35): 
 
-04, 22, 2018 (13:17:56): Starting checks of EventsBaseID conflicts
-04, 22, 2018 (13:17:56): Finished checks of EventsBaseID conflicts
-04, 22, 2018 (13:17:56): End Log
+Starting inUnit resolution phase
+
+
+04, 22, 2018 (17:04:35): 
+
+Finished inUnit resolution phase
+
+
+04, 22, 2018 (17:04:35): 
+
+Starting inUnit resolution phase
+
+
+04, 22, 2018 (17:04:35): 
+
+Finished inUnit resolution phase
+
+
+04, 22, 2018 (17:04:35): 
+ Finished loading D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Semaphore\Semaphore.rpy on Sunday, April 22, 2018 (17:04:35).-
+
+04, 22, 2018 (17:04:35): Starting checks of EventsBaseID conflicts
+04, 22, 2018 (17:04:35): Finished checks of EventsBaseID conflicts
+04, 22, 2018 (17:04:35): End Log
