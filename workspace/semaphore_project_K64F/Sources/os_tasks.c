@@ -44,8 +44,6 @@ extern "C" {
 
 extern semaphore_t blue_led_sema_handle;
 
-#define DISABLE_SEMAPHORE 0
-
 /*
 ** ===================================================================
 **     Callback    : task_blue_LED_OFF_entry
@@ -60,6 +58,7 @@ void task_blue_LED_OFF_entry(os_task_param_t task_init_data)
   /* Write your local variable definition here */
 
 	int state = 1;
+	osa_status_t status;
   
 #ifdef PEX_USE_RTOS
   while (1) {
@@ -68,27 +67,39 @@ void task_blue_LED_OFF_entry(os_task_param_t task_init_data)
 
 	switch(state){
 		  case 1: // Acquire semaphore token
-			  if(DISABLE_SEMAPHORE)
+			  status = OSA_SemaWait(&blue_led_sema_handle,1000);
+			  if(status == kStatus_OSA_Timeout)
 			  {
 				  state = 2;
 				  break;
 			  }
-			  if(OSA_SemaWait(&blue_led_sema_handle,1000) == kStatus_OSA_Success)
+			  if(status == kStatus_OSA_Success)
 			  {
 				  ledrgb_clearRedLed();
-				  state = 2;
-			  }
-			  else
-			  {
-				  ledrgb_setRedLed();
+				  state = 3;
+				  break;
 			  }
 
 			  break;
 
-		  case 2: // Clear LED and Release token
+		  case 2: // Set Red LED
+			  ledrgb_setRedLed();
+			  for(int i=0; i<1000000; i++)__asm("nop"); // Short delay to see Red LED
+			  state = 5;
+			  break;
+
+		  case 3: // Clear LED
 			  ledrgb_clearBlueLed();
-			  for(int i=0; i<10000000; i++)__asm("nop"); // 1 sec
-			  if(!DISABLE_SEMAPHORE)OSA_SemaPost(&blue_led_sema_handle);
+			  state = 4;
+			  break;
+
+		  case 4: // Wait
+			  for(int i=0; i<10000000; i++)__asm("nop"); // ~1 sec
+			  state = 5;
+			  break;
+
+		  case 5: // Release token
+			  OSA_SemaPost(&blue_led_sema_handle);
 			  OSA_TimeDelay(10);
 			  state = 1;
 			  break;
@@ -124,25 +135,25 @@ void task_blue_LED_ON_entry(os_task_param_t task_init_data)
 
 	  switch(state){
 		  case 1: // Acquire semaphore token
-			  if(DISABLE_SEMAPHORE)
-			  {
-				  state = 2;
-				  break;
-			  }
 			  if(OSA_SemaWait(&blue_led_sema_handle,OSA_WAIT_FOREVER) == kStatus_OSA_Success)
 			  {
 				  state = 2;
 			  }
 			  break;
 
-		  case 2: // Set LED and wait
+		  case 2: // Set Blue LED
 			  ledrgb_setBlueLed();
-			  OSA_TimeDelay(4000);
 			  state = 3;
 			  break;
 
-		  case 3: // Release token
-			  if(!DISABLE_SEMAPHORE)OSA_SemaPost(&blue_led_sema_handle);
+		  case 3: // Wait
+			  OSA_TimeDelay(4000);
+			  state = 4;
+			  break;
+
+		  case 4: // Release token
+			  OSA_SemaWait(&blue_led_sema_handle,0); // Reacquire if released by third party
+			  OSA_SemaPost(&blue_led_sema_handle);
 			  OSA_TimeDelay(10);
 			  state = 1;
 	  }

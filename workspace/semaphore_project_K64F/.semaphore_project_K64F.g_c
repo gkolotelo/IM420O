@@ -29,8 +29,8 @@
       <GenExtraFileSrcDir9>Repositories\lib\doxygen\</GenExtraFileSrcDir9>
       <XtraAge0>1284809373</XtraAge0>
       <XtraAge1>1284805421</XtraAge1>
-      <XtraAge2>1284809373</XtraAge2>
-      <XtraAge3>1284809373</XtraAge3>
+      <XtraAge2>1284864610</XtraAge2>
+      <XtraAge3>1284866903</XtraAge3>
       <XtraAge4>1284809373</XtraAge4>
       <GenExtraFileType9>5</GenExtraFileType9>
       <GenExtraFileType8>4</GenExtraFileType8>
@@ -775,7 +775,7 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>17</ProjectModificationStamp>
+    <ProjectModificationStamp>25</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -783,8 +783,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1284809373</HeaderAge>
-    <CodeAge>1284812661</CodeAge>
+    <HeaderAge>1284868449</HeaderAge>
+    <CodeAge>1284868449</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -1330,8 +1330,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1284809373</HeaderAge>
-    <CodeAge>1284809373</CodeAge>
+    <HeaderAge>1284864610</HeaderAge>
+    <CodeAge>1284868449</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>59</GenNumMethods>
     <hardware_init>true</hardware_init>
@@ -1353,16 +1353,16 @@
     <deinit_fb_pins>false</deinit_fb_pins>
     <init_ftm_pins>false</init_ftm_pins>
     <deinit_ftm_pins>false</deinit_ftm_pins>
-    <init_gpio_pins>false</init_gpio_pins>
-    <deinit_gpio_pins>false</deinit_gpio_pins>
+    <init_gpio_pins>true</init_gpio_pins>
+    <deinit_gpio_pins>true</deinit_gpio_pins>
     <init_i2c_pins>false</init_i2c_pins>
     <deinit_i2c_pins>false</deinit_i2c_pins>
     <init_i2s_pins>false</init_i2s_pins>
     <deinit_i2s_pins>false</deinit_i2s_pins>
     <init_jtag_pins>true</init_jtag_pins>
     <deinit_jtag_pins>true</deinit_jtag_pins>
-    <init_llwu_pins>false</init_llwu_pins>
-    <deinit_llwu_pins>false</deinit_llwu_pins>
+    <init_llwu_pins>true</init_llwu_pins>
+    <deinit_llwu_pins>true</deinit_llwu_pins>
     <init_lptmr_pins>false</init_lptmr_pins>
     <deinit_lptmr_pins>false</deinit_lptmr_pins>
     <init_osc_pins>true</init_osc_pins>
@@ -1402,15 +1402,15 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>1405</LineBeg>
-      <LineEnd>1793</LineEnd>
+      <LineBeg>1409</LineBeg>
+      <LineEnd>1797</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>Init</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Code</ModuleType>
       <LineBeg>1398</LineBeg>
-      <LineEnd>1495</LineEnd>
+      <LineEnd>1550</LineEnd>
     </MethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\board.h</ExtraFile0>
