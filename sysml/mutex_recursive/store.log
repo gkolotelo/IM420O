@@ -1,0 +1,77 @@
+04, 26, 2018 (19:48:58): Starting Pre-Save actions
+
+04, 26, 2018 (19:48:58): Starting Dialogs Check/Save
+04, 26, 2018 (19:48:58): Finished Dialogs Check/Save
+04, 26, 2018 (19:48:58): Starting Controlled Files Resolution
+04, 26, 2018 (19:48:58): Finished Controlled Files Resolution
+04, 26, 2018 (19:48:58): Finished Pre-Save actions
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive.rpy
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive.rpy on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\filesTable.dat on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\filesTable.dat on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\Default.sbs
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\Default.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\Default.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\SubsystemsPkg.sbs
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\SubsystemsPkg.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_blue_LED_OFF.sbs
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_blue_LED_OFF.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_blue_LED_OFF.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_blue_LED_ON.sbs
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_blue_LED_ON.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_blue_LED_ON.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\FreeRTOS_kernel.sbs
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\FreeRTOS_kernel.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\FreeRTOS_kernel.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\FRDM_K64F.sbs
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\FRDM_K64F.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\FRDM_K64F.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_deleter.sbs
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_deleter.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\task_deleter.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\SubsystemsPkg.sbs on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\DefaultComponent.cmp
+04, 26, 2018 (19:48:58): 
+Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\DefaultComponent.cmp on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): version 8.5.2
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive_rpy\DefaultComponent.cmp on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\mutex_recursive\mutex_recursive.rpy on Thursday, April 26, 2018 (19:48:58)
+
+04, 26, 2018 (19:48:58): End Log
