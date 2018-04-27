@@ -3,11 +3,11 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
 	- _myState = 8192;
 	- _name = "SubsystemsPkg";
-	- _objectCreation = "231884622620181720140423";
-	- _umlDependencyID = "2964";
-	- _lastID = 8;
+	- _objectCreation = "1199626322018191624411";
+	- _umlDependencyID = "2870";
+	- _lastID = 9;
 	- Declaratives = { IRPYRawContainer 
-		- size = 5;
+		- size = 6;
 		- value = 
 		{ ISubsystem 
 			- fileName = "task_blue_LED_OFF";
@@ -160,9 +160,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "Subsystem Architecture";
-			- _objectCreation = "231884822620181720138423";
-			- _umlDependencyID = "3819";
-			- _lastModifiedTime = "4.22.2018::19:39:34";
+			- _objectCreation = "1199826322018191622411";
+			- _umlDependencyID = "3716";
+			- _lastModifiedTime = "4.26.2018::22:32:4";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 5fe57b74-2d92-479a-9d60-2261dac5f127;
 				- m_type = 0;
@@ -186,7 +186,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 13;
+				- elementList = 17;
 				{ CGIClass 
 					- _id = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
 					- m_type = 78;
@@ -266,12 +266,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "task_blue_LED_OFF.sbs";
 						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
 						- _class = "TopLevel";
-						- _name = "task_blue_LED_OFF";
+						- _name = "task_blue_LED_OFF_entry";
 						- _id = GUID 222423fe-2629-4007-a6b1-30f4d5797652;
 					}
 					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
 					- m_name = { CGIText 
-						- m_str = "task_blue_LED_OFF::task_blue_LED_OFF";
+						- m_str = "task_blue_LED_OFF::task_blue_LED_OFF_entry";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -284,7 +284,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2824;
-					- m_transform = 0.27762 0 0 0.12358 1013.44 264.343 ;
+					- m_transform = 0.287063 0 0 0.123886 1013.43 264.242 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -303,7 +303,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
-					- frameset = "<frameset rows=27%,73%>
+					- frameset = "<frameset rows=67%,33%>
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
@@ -313,7 +313,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 							- _m2Class = "IAttribute";
 							- _filename = "task_blue_LED_OFF.sbs";
 							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-							- _class = "TopLevel.task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF_entry";
 							- _name = "state";
 							- _id = GUID aaa2ec20-a326-4b1e-9d0f-1b20641649af;
 						}
@@ -321,38 +321,13 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 							- _m2Class = "IAttribute";
 							- _filename = "task_blue_LED_OFF.sbs";
 							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-							- _class = "TopLevel.task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF_entry";
 							- _name = "status";
 							- _id = GUID 144068ff-b4d1-41e3-9d35-cdba1e9712fb;
 						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 3;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPrimitiveOperation";
-							- _filename = "task_blue_LED_OFF.sbs";
-							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-							- _class = "TopLevel.task_blue_LED_OFF";
-							- _name = "ledrgb_init()";
-							- _id = GUID d67c428e-8de7-415e-bce8-4ffa9ed1786e;
-						}
-						{ IHandle 
-							- _m2Class = "IPrimitiveOperation";
-							- _filename = "task_blue_LED_OFF.sbs";
-							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-							- _class = "TopLevel.task_blue_LED_OFF";
-							- _name = "ledrgb_setBlueLed()";
-							- _id = GUID 08252891-1b30-4818-b290-39edf7a7d63d;
-						}
-						{ IHandle 
-							- _m2Class = "IPrimitiveOperation";
-							- _filename = "task_blue_LED_OFF.sbs";
-							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-							- _class = "TopLevel.task_blue_LED_OFF";
-							- _name = "ledrgb_clearBlueLed()";
-							- _id = GUID 34d512ba-bc20-4545-9499-1e41d37c4851;
-						}
+						- size = 0;
 					}
 					- m_multiplicity = { CGIText 
 						- m_str = "1";
@@ -401,12 +376,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "task_blue_LED_ON.sbs";
 						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
 						- _class = "TopLevel";
-						- _name = "task_blue_LED_ON";
+						- _name = "task_blue_LED_ON_entry";
 						- _id = GUID 1b0c336a-1498-447d-ac4f-70a45cb34892;
 					}
 					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
 					- m_name = { CGIText 
-						- m_str = "task_blue_LED_ON::task_blue_LED_ON";
+						- m_str = "task_blue_LED_ON::task_blue_LED_ON_entry";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -438,7 +413,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
-					- frameset = "<frameset rows=28%,72%>
+					- frameset = "<frameset rows=70%,30%>
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
@@ -448,38 +423,13 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 							- _m2Class = "IAttribute";
 							- _filename = "task_blue_LED_ON.sbs";
 							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
-							- _class = "TopLevel.task_blue_LED_ON";
+							- _class = "TopLevel.task_blue_LED_ON_entry";
 							- _name = "state";
 							- _id = GUID 2b879123-7a99-40ba-a4ea-7ae584f3dec8;
 						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 3;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPrimitiveOperation";
-							- _filename = "task_blue_LED_ON.sbs";
-							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
-							- _class = "TopLevel.task_blue_LED_ON";
-							- _name = "ledrgb_init()";
-							- _id = GUID b236b679-ce1c-4499-ada1-1584e1c244fd;
-						}
-						{ IHandle 
-							- _m2Class = "IPrimitiveOperation";
-							- _filename = "task_blue_LED_ON.sbs";
-							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
-							- _class = "TopLevel.task_blue_LED_ON";
-							- _name = "ledrgb_clearBlueLed()";
-							- _id = GUID 148fadbe-423d-4134-b609-8d641d97a5cc;
-						}
-						{ IHandle 
-							- _m2Class = "IPrimitiveOperation";
-							- _filename = "task_blue_LED_ON.sbs";
-							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
-							- _class = "TopLevel.task_blue_LED_ON";
-							- _name = "ledrgb_setBlueLed()";
-							- _id = GUID effa3358-9a25-4b29-90b5-21174dce0963;
-						}
+						- size = 0;
 					}
 					- m_multiplicity = { CGIText 
 						- m_str = "1";
@@ -866,7 +816,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IDependency";
 						- _filename = "task_blue_LED_OFF.sbs";
 						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-						- _class = "TopLevel.task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF_entry";
 						- _name = "blue_led_mutex_handle";
 						- _id = GUID 8ee5435a-1e16-4eea-b8e2-ea883f23b1db;
 					}
@@ -908,7 +858,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 0;
 					- m_SourcePort = 492 1405 ;
-					- m_TargetPort = 376 329 ;
+					- m_TargetPort = 386 336 ;
 					- m_ShowName = 0;
 					- m_ShowStereotype = 1;
 				}
@@ -944,7 +894,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IDependency";
 						- _filename = "task_blue_LED_ON.sbs";
 						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
-						- _class = "TopLevel.task_blue_LED_ON";
+						- _class = "TopLevel.task_blue_LED_ON_entry";
 						- _name = "blue_led_mutex_handle";
 						- _id = GUID aa581094-b5b1-4738-a04a-e648fd0a05bb;
 					}
@@ -1023,7 +973,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IDependency";
 						- _filename = "task_blue_LED_OFF.sbs";
 						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-						- _class = "TopLevel.task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF_entry";
 						- _name = "BlueLED";
 						- _id = GUID 1eef0ca3-3c08-4f40-881a-68ee7c5dda15;
 					}
@@ -1065,7 +1015,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
-					- m_SourcePort = 251 1446 ;
+					- m_SourcePort = 242 1443 ;
 					- m_TargetPort = 794 345 ;
 					- m_ShowName = 0;
 					- m_ShowStereotype = 1;
@@ -1102,7 +1052,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IDependency";
 						- _filename = "task_blue_LED_ON.sbs";
 						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
-						- _class = "TopLevel.task_blue_LED_ON";
+						- _class = "TopLevel.task_blue_LED_ON_entry";
 						- _name = "BlueLED";
 						- _id = GUID edb3942b-8e23-495a-8c08-49fe5b0e51f0;
 					}
@@ -1298,7 +1248,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IDependency";
 						- _filename = "task_blue_LED_OFF.sbs";
 						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-						- _class = "TopLevel.task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF_entry";
 						- _name = "RedLED";
 						- _id = GUID 8773f186-0fbf-4d72-a59c-bd5bf4f88b80;
 					}
@@ -1340,7 +1290,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 0;
 					- m_SourcePort = 445 369 ;
-					- m_TargetPort = 426 1404 ;
+					- m_TargetPort = 439 1373 ;
 					- m_ShowName = 0;
 					- m_ShowStereotype = 1;
 				}
@@ -1439,6 +1389,347 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 					- m_srcFile = "C:\\Program Files (x86)\\IBM\\Rational\\Rhapsody Modeler\\7.5\\Share\\PredefinedPictures\\Mutex.bmp";
 					- m_fileModifiedTime = 3.16.2009::16:19:2;
 				}
+				{ CGIObjectInstance 
+					- _id = GUID 49b4e87e-0fcd-49a6-ae4c-e884aa029622;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "task_deleter.sbs";
+						- _subsystem = "SubsystemsPkg::task_deleter";
+						- _class = "TopLevel";
+						- _name = "task_deleter_entry";
+						- _id = GUID 3258eeff-b985-4f91-a4e9-a655f74b16d5;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "task_deleter::task_deleter_entry";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.287063 0 0 0.123886 1438.43 264.242 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=50%,50%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 824bd6e9-4e76-46f7-83fd-c142de996004;
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "FRDM_K64F.sbs";
+						- _subsystem = "SubsystemsPkg::FRDM_K64F";
+						- _class = "TopLevel";
+						- _name = "GreenLED";
+						- _id = GUID 4c4e46e6-33be-4591-b367-0df281b5803a;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "FRDM_K64F::GreenLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.203966 0 0 0.124777 1495.59 17.9483 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=34%,66%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.GreenLED";
+							- _name = "ledrgb_init()";
+							- _id = GUID 28ef7d59-083c-4d76-b19b-8fe4d7e3acb3;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.GreenLED";
+							- _name = "ledrgb_setGreenLed()";
+							- _id = GUID d4808ad4-2913-4b43-9511-64d988e688b3;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.GreenLED";
+							- _name = "ledrgb_clearGreenLed()";
+							- _id = GUID f34345e6-43d0-49ea-96ca-91746342d38f;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIInheritance 
+					- _id = GUID 7b6e79c8-9577-4571-9641-4a136c659284;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_deleter.sbs";
+						- _subsystem = "SubsystemsPkg::task_deleter";
+						- _class = "TopLevel.task_deleter_entry";
+						- _name = "GreenLED";
+						- _id = GUID 423be208-2700-45a1-a3ae-a98397376dcb;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "GreenLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 49b4e87e-0fcd-49a6-ae4c-e884aa029622;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 824bd6e9-4e76-46f7-83fd-c142de996004;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 674 426 ;
+					- m_TargetPort = 669 1275 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 6559a44e-e2d4-4ec9-9cc2-77177bf2e03f;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_deleter.sbs";
+						- _subsystem = "SubsystemsPkg::task_deleter";
+						- _class = "TopLevel.task_deleter_entry";
+						- _name = "blue_led_mutex_handle";
+						- _id = GUID 1618cb80-f660-4a10-8919-892644ee9666;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_mutex_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 49b4e87e-0fcd-49a6-ae4c-e884aa029622;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 1 1608 668  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 591 1354 ;
+					- m_TargetPort = 1038 813 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -1465,8 +1756,12 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 			- fileName = "FRDM_K64F";
 			- _id = GUID 892f86bb-00f1-45de-8343-2d2101cfb66e;
 		}
+		{ ISubsystem 
+			- fileName = "task_deleter";
+			- _id = GUID 705b8b30-7aa5-4354-89df-c326bb07233f;
+		}
 	}
-	- weakCGTime = 4.22.2018::20:6:19;
+	- weakCGTime = 4.26.2018::22:32:4;
 	- strongCGTime = 4.3.2018::17:52:53;
 	- _defaultComposite = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
 	- _eventsBaseID = -1;
@@ -1477,17 +1772,20 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 			- _id = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "231885022620181720136423";
-			- _umlDependencyID = "2395";
-			- weakCGTime = 4.22.2018::19:35:25;
+			- _objectCreation = "11104226322018191578411";
+			- _umlDependencyID = "2340";
+			- weakCGTime = 4.26.2018::20:36:19;
 			- strongCGTime = 4.3.2018::17:52:53;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 4.22.2018::17:5:50;
+	- _configurationRelatedTime = 4.26.2018::20:36:19;
 }
 

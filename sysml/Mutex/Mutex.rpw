@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 		- size = 0;
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 3;
+		- size = 4;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -32,7 +32,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 			- _UpLeft = 350 0 ;
 			- _DownRight = 587 528 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -53,20 +53,20 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _m2Class = "IStateChartDiagram";
 				- _filename = "task_blue_LED_OFF.sbs";
 				- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
-				- _class = "TopLevel.task_blue_LED_OFF";
+				- _class = "TopLevel.task_blue_LED_OFF_entry";
 				- _name = "StatechartDiagram";
 				- _id = GUID 398da3e6-94cd-483b-bbc2-beb2cd28a1fa;
 			}
 			- _UpLeft = 364 258 ;
 			- _DownRight = 575 729 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- m_nDiagramIndex = 2;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -81,12 +81,40 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _m2Class = "IStateChartDiagram";
 				- _filename = "task_blue_LED_ON.sbs";
 				- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
-				- _class = "TopLevel.task_blue_LED_ON";
+				- _class = "TopLevel.task_blue_LED_ON_entry";
 				- _name = "StatechartDiagram";
 				- _id = GUID 4d3bce9f-34e4-4f4e-adbf-aab20b43810e;
 			}
+			- _UpLeft = 252 155 ;
+			- _DownRight = 1056 532 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 1410;
+				- m_nBottom = 724;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "task_deleter.sbs";
+				- _subsystem = "SubsystemsPkg::task_deleter";
+				- _class = "TopLevel.task_deleter_entry";
+				- _name = "task_deleter_sequence";
+				- _id = GUID 621690e7-3b91-4071-9aca-6c9726ed8039;
+			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1396 893 ;
+			- _DownRight = 1571 865 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
