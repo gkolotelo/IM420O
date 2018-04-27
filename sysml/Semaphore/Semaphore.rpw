@@ -29,8 +29,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "Subsystem Architecture";
 				- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
 			}
-			- _UpLeft = 236 0 ;
-			- _DownRight = 1632 893 ;
+			- _UpLeft = 232 0 ;
+			- _DownRight = 1934 1089 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
