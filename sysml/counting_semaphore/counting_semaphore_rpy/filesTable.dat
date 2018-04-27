@@ -1,0 +1,17 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 10;
+	- value = "D:\\Users\\guilherme\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\Semaphore\\Projects.rpl" ""
+	"counting_semaphore.rpy" ""
+	"counting_semaphore_rpy\\Default.sbs" "Default"
+	"counting_semaphore_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"counting_semaphore_rpy\\FRDM_K64F.sbs" "SubsystemsPkg::FRDM_K64F"
+	"counting_semaphore_rpy\\FreeRTOS_kernel.sbs" "SubsystemsPkg::FreeRTOS_kernel"
+	"counting_semaphore_rpy\\SubsystemsPkg.sbs" "SubsystemsPkg"
+	"counting_semaphore_rpy\\task_blue_LED_OFF.sbs" "SubsystemsPkg::task_blue_LED_OFF"
+	"counting_semaphore_rpy\\task_blue_LED_ON.sbs" "SubsystemsPkg::task_blue_LED_ON"
+	"counting_semaphore_rpy\\task_free_resource.sbs" "SubsystemsPkg::task_free_resource"
+	
+}
+

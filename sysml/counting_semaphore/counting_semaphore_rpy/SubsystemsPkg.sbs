@@ -1,0 +1,1644 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
+	- _myState = 8192;
+	- _name = "SubsystemsPkg";
+	- _objectCreation = "483772265320181522091448";
+	- _umlDependencyID = "2981";
+	- _lastID = 9;
+	- Declaratives = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ ISubsystem 
+			- fileName = "task_blue_LED_OFF";
+			- _id = GUID b0feb7e8-fe99-4496-9988-9c62d3e6fdb6;
+		}
+		{ ISubsystem 
+			- fileName = "task_blue_LED_ON";
+			- _id = GUID 78b75930-b396-4e61-9a93-b085cd95cd4c;
+		}
+		{ IDiagram 
+			- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Depends";
+								- Properties = { IRPYRawContainer 
+									- size = 6;
+									- value = 
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,128";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "10";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,16,230";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineStyle";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Flow";
+								- Properties = { IRPYRawContainer 
+									- size = 6;
+									- value = 
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,128";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "10";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,112,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineStyle";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Object";
+								- Properties = { IRPYRawContainer 
+									- size = 9;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,34,84,148";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "255,255,255";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "10";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Underline@Child.NameCompartment@Name";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "121,122,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineStyle";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Subsystem Architecture";
+			- _objectCreation = "483774265320181522089448";
+			- _umlDependencyID = "3836";
+			- _lastModifiedTime = "4.26.2018::18:53:46";
+			- _graphicChart = { CGIClassChart 
+				- _id = GUID 5fe57b74-2d92-479a-9d60-2261dac5f127;
+				- m_type = 0;
+				- m_pModelObject = { IHandle 
+					- _m2Class = "IDiagram";
+					- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
+				}
+				- m_pParent = ;
+				- m_name = { CGIText 
+					- m_str = "";
+					- m_style = "Arial" 10 0 0 0 1 ;
+					- m_color = { IColor 
+						- m_fgColor = 0;
+						- m_bgColor = 0;
+						- m_bgFlag = 0;
+					}
+					- m_position = 1 0 0  ;
+					- m_nIdent = 0;
+					- m_bImplicitSetRectPoints = 0;
+					- m_nOrientationCtrlPt = 8;
+				}
+				- m_drawBehavior = 0;
+				- m_bIsPreferencesInitialized = 0;
+				- elementList = 15;
+				{ CGIClass 
+					- _id = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_type = 78;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "TopLevel";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 0;
+					- m_bIsPreferencesInitialized = 0;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 0 ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 76faef1d-a930-4894-9c61-be47dddab6cc;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "task_blue_LED_OFF.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+						- _class = "TopLevel";
+						- _name = "task_blue_LED_OFF_entry";
+						- _id = GUID 222423fe-2629-4007-a6b1-30f4d5797652;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "task_blue_LED_OFF::task_blue_LED_OFF_entry";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.279509 0 0 0.111408 1013.44 268.347 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=79%,21%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_blue_LED_OFF.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF_entry";
+							- _name = "state";
+							- _id = GUID aaa2ec20-a326-4b1e-9d0f-1b20641649af;
+						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_blue_LED_OFF.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+							- _class = "TopLevel.task_blue_LED_OFF_entry";
+							- _name = "status";
+							- _id = GUID 144068ff-b4d1-41e3-9d35-cdba1e9712fb;
+						}
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 0267460f-55d0-481f-846a-8f52083a3d50;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "task_blue_LED_ON.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+						- _class = "TopLevel";
+						- _name = "task_blue_LED_ON_entry";
+						- _id = GUID 1b0c336a-1498-447d-ac4f-70a45cb34892;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "task_blue_LED_ON::task_blue_LED_ON_entry";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.279509 0 0 0.111408 607.441 268.347 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=79%,21%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_blue_LED_ON.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+							- _class = "TopLevel.task_blue_LED_ON_entry";
+							- _name = "state";
+							- _id = GUID 2b879123-7a99-40ba-a4ea-7ae584f3dec8;
+						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_blue_LED_ON.sbs";
+							- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+							- _class = "TopLevel.task_blue_LED_ON_entry";
+							- _name = "status";
+							- _id = GUID 62fe70c3-01ea-4614-a33a-879c97ae1254;
+						}
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "FRDM_K64F.sbs";
+						- _subsystem = "SubsystemsPkg::FRDM_K64F";
+						- _class = "TopLevel";
+						- _name = "BlueLED";
+						- _id = GUID 1728af87-26e8-4ba8-a50d-43e316b614b1;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "FRDM_K64F::BlueLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2632;
+					- m_transform = 0.274787 0 0 0.127451 514.45 561.069 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=32%,68%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "blue_led_count_sema_handle";
+							- _id = GUID 7f7937a8-0d85-438f-8cca-6f21c73d5edf;
+						}
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "ledrgb_init()";
+							- _id = GUID 14c6d06d-492b-497e-acab-3775073713a8;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "ledrgb_setBlueLed()";
+							- _id = GUID 83016161-167a-4555-a8f5-5ffedc648f3e;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.BlueLED";
+							- _name = "ledrgb_clearBlueLed()";
+							- _id = GUID ddeb80c9-3863-49fe-8f7f-d7a2fa916811;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIObjectInstance 
+					- _id = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 3;
+											- value = 
+											{ IProperty 
+												- _Name = "EnableImageView";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "ImageViewLayout";
+												- _Value = "Compartment";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "FreeRTOS_kernel.sbs";
+						- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+						- _class = "TopLevel";
+						- _name = "blue_led_count_sema_handle";
+						- _id = GUID 3d48bb07-9a09-4370-9f38-6b8a0a792667;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "FreeRTOS_kernel::blue_led_count_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.452314 0 0 0.137255 987.099 556.843 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_pImageViewData = { IHandle 
+						- _m2Class = "OMGEElement";
+						- _id = GUID f819dcc6-bcf3-4d0a-b26c-691a553290f7;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=37%,9%,54%>
+<frame name=StereotypeBitmap,C:\\Program$SPACEFiles$SPACE(x86)\\IBM\\Rational\\Rhapsody$SPACEModeler\\7.5\\Share\\PredefinedPictures\\Semaphore.bmp>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FreeRTOS_kernel.sbs";
+							- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+							- _class = "TopLevel.blue_led_count_sema_handle";
+							- _name = "OSA_SemaWait(semaphore_t,unsigned int)";
+							- _id = GUID 671a1171-5959-4e60-8af9-b9bb643ff0ff;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FreeRTOS_kernel.sbs";
+							- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+							- _class = "TopLevel.blue_led_count_sema_handle";
+							- _name = "OSA_SemaPost(semaphore_t)";
+							- _id = GUID a0d10bc4-d394-45b4-bfce-0ace991901e3;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FreeRTOS_kernel.sbs";
+							- _subsystem = "SubsystemsPkg::FreeRTOS_kernel";
+							- _class = "TopLevel.blue_led_count_sema_handle";
+							- _name = "OSA_SemaCreate(semaphore_t,unsigned int)";
+							- _id = GUID ab5a7024-0817-483a-b9ca-f65d08e51e88;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIInheritance 
+					- _id = GUID adc48a18-6df8-416e-a038-de6b85a0e775;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "FRDM_K64F.sbs";
+						- _subsystem = "SubsystemsPkg::FRDM_K64F";
+						- _class = "TopLevel.BlueLED";
+						- _name = "blue_led_count_sema_handle";
+						- _id = GUID fc7df730-172b-4da9-8a8f-466c8c5e46f7;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 1053 949 ;
+					- m_TargetPort = 2 912 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 813d29f8-ce62-4725-9d13-02839adcbcf2;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_OFF.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF_entry";
+						- _name = "blue_led_count_sema_handle";
+						- _id = GUID 8ee5435a-1e16-4eea-b8e2-ea883f23b1db;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 76faef1d-a930-4894-9c61-be47dddab6cc;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 492 1405 ;
+					- m_TargetPort = 362 375 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID cc3476e7-6d44-4998-9d6d-16bea99694f7;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_ON.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+						- _class = "TopLevel.task_blue_LED_ON_entry";
+						- _name = "blue_led_count_sema_handle";
+						- _id = GUID aa581094-b5b1-4738-a04a-e648fd0a05bb;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 0267460f-55d0-481f-846a-8f52083a3d50;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 744 467  1134 467  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 489 1406 ;
+					- m_TargetPort = 325 344 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 7cc05843-935e-4d7d-bcf8-bafcf444750d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_OFF.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+						- _class = "TopLevel.task_blue_LED_OFF_entry";
+						- _name = "BlueLED";
+						- _id = GUID 1eef0ca3-3c08-4f40-881a-68ee7c5dda15;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "BlueLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 76faef1d-a930-4894-9c61-be47dddab6cc;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 1083 559  740 559  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 249 1442 ;
+					- m_TargetPort = 821 345 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 2a6d031d-e171-4cf4-b2f6-7252252169ec;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_blue_LED_ON.sbs";
+						- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+						- _class = "TopLevel.task_blue_LED_ON_entry";
+						- _name = "BlueLED";
+						- _id = GUID edb3942b-8e23-495a-8c08-49fe5b0e51f0;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "BlueLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 0267460f-55d0-481f-846a-8f52083a3d50;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 73d80fa3-9fe1-4a96-9232-7318aa5c08ce;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 315 1419 ;
+					- m_TargetPort = 653 345 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 818fa0a8-1db3-4516-b3e4-81eea1beea7d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "FRDM_K64F.sbs";
+						- _subsystem = "SubsystemsPkg::FRDM_K64F";
+						- _class = "TopLevel";
+						- _name = "RedLED";
+						- _id = GUID c60f4f95-abc9-4ba3-9159-41c3f30d262c;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "FRDM_K64F::RedLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2632;
+					- m_transform = 0.247403 0 0 0.127451 1032.51 21.069 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_bFramesetModified = 1;
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=32%,68%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.RedLED";
+							- _name = "ledrgb_init()";
+							- _id = GUID b10dc4aa-260d-4fd7-ae9a-39128a72decb;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.RedLED";
+							- _name = "ledrgb_setRedLed()";
+							- _id = GUID b7141349-a1c2-44ec-a4b2-ec49fdaf9003;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FRDM_K64F.sbs";
+							- _subsystem = "SubsystemsPkg::FRDM_K64F";
+							- _class = "TopLevel.RedLED";
+							- _name = "ledrgb_clearRedLed()";
+							- _id = GUID 1ce6f7c5-0c2d-43ea-b924-a62ee2516b4e;
+						}
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIImageData 
+					- _id = GUID f819dcc6-bcf3-4d0a-b26c-691a553290f7;
+					- m_type = 0;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_dataSize = 36171;
+					- m_data = "4836#424d3648g0636g0328g03Kg0348g0301G18g0648g12d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9cb5b5b5b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b5b5b5b5b5b5b59c9c9c9c9c9c9c9c9c9c9c9cd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e73931e7b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c3931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e73931e74242ef4242ef4242ef9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e74242ef4242ef4242ef5252ef5252ef6363f79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b5b5b5b59c9c9c9c9c9c9c9c9c9c9c9c5252ef5252ef4242ef4242ef4242ef3931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e73931e74242ef4242ef5252ef5252ef6363f76363f76363f77373f79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9c9c9c9c9c9c9c7373f76363f76363f75252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e74242ef4242ef4242ef5252ef6363f76363f76363f77373f77373f78484f79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9c9c9c9c9c9c9c7373f77373f77373f76363f76363f75252ef4242ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e73931e74242ef4242ef5252ef5252ef6363f76363f77373f77373f78484f78484f78c94Z9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b5b5b5b59c9c9c9c9c9c9c9c9c9c9c9c8484f78484f77373f77373f77373f76363f75252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e73931e74242ef4242ef5252ef5252ef6363f76363f76363f77373f78484f78484f78c94Z8c94Z8c94Z9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c8c94Z8c94Z8484f78484f77373f77373f76363f76363f75252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d
+6d6d6d6d6d6d6d6d6d6d6d63931e74242ef4242ef4242ef5252ef5252ef6363f76363f77373f77373f78484f78c94Z8c94Z8c94Z8c94Z8c94Z9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6b5b5b5b5b5b5d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c8c94Z8c94Z8c94Z8c94Z8484f77373f77373f77373f76363f75252ef5252ef4242ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d63931e73931e74242ef4242ef5252ef5252ef6363f76363f77373f77373f78484f78484f78c94Z8c94Z8c94Z8c94Z8484f78484f79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5b5b5b5b5b5b5d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6b5b5b5b5b5b5b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c8484f78c94Z8c94Z8c94Z8c94Z8484f78484f77373f77373f76363f76363f75252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931
+e74242ef4242ef5252ef5252ef6363f76363f76363f77373f77373f78484f78c94Z8c94Z8c94Z8c94Z8484f78484f78484f77373f79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cb5b5b5b5b5b5f7f7f7f7f7f7b5b5b59c9c9cf7f7f7f7f7f7b5b5b5b5b5b5b5b5b5b5b5b5b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c8484f78484f78484f78c94Z8c94Z8c94Z8c94Z8484f78484f77373f77373f76363f76363f75252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e74242ef4242ef52
+52ef5252ef5252ef6363f76363f77373f77373f78484f78c94Z8c94Z8c94Z8c94Z8c94Z8484f78484f77373f77373f77373f79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cf7f7f7f7f7f7b5b5b5f7f7f7f7f7f7b5b5b5b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c7373f77373f78484f78484f78c94Z8c94Z8c94Z8c94Z8c94Z8484f77373f77373f77373f76363f75252ef5252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e73931e74242ef4242ef5252ef5252ef63
+63f76363f77373f77373f78484f78484f78c94Z8c94Z8c94Z8c94Z8484f78484f78484f77373f77373f76363ef9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cf7f7f7f7f7f7f7f7f7f7f7f79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c6363ef7373f77373f78484f78484f78484f78c94Z8c94Z8c94Z8c94Z8484f78484f77373f77373f76363f76363f75252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d63931e74242ef4242ef5252ef5252ef6363f76363f77373f7
+7373f77373f78484f78c94Z8c94Z8c94Z8c94Z8484f78484f78484f77373f77373f77373f76363ef5252ef5252ef5252ef9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cf7f7f7f7f7f7f7f7f7b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c5252ef5252ef6363ef7373f77373f77373f78484f78484f78484f78c94Z8c94Z8c94Z8c94Z8484f78484f77373f77373f76363f76363f75252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d63931e74242ef4242ef5252ef5252ef63d6Z63deZ63deZ63e7Z63e7Z63efZ8c94
+Z8c94Z8c94Z8c94Z8c94Z8484f78484f78484f77373f77373f76363ef6363ef5252ef5252ef4a4ae74a4ae74a4ae79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cf7f7f7f7f7f7f7f7f7b5b5b59c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c4a4ae74a4ae75252ef5252ef6363ef6363ef7373f77373f78484f78484f78484f78c94Z8c94Z8c94Z8c94Z8c94Z8484f763efZ63e7Z63e7Z63deZ63d6Z5252ef5252ef4242ef4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d63931e74242ef63ceZ63d6Z63d6Z63deZ63deZ63e7Z63e7Z63efZ63efZ63f7Z63f7Z63f7Z8c94Z8484f78484
+f78484f77373f77373f76363ef6363ef5252ef5252ef5252ef4a4ae74a4ae73939e73939e73939e79c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9cf7f7f7f7f7f7f7f7f7f7f7f7b5b5b59c9c9c9c9c9c9c9c9c2929e73939e73939e74a4ae74a4ae75252ef5252ef5252ef6363ef6363ef7373f77373f78484f78484f78484f78c94Z8c94Z63f7Z63f7Z63efZ63efZ63e7Z63e7Z63deZ63deZ63d6Z63d6Z63ceZ4242ef3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d63931e763ceZ63ceZ63d6Z63d6Z63deZ63deZ63e7Z63e7Z63e7Z63efZ63f7Z63f7Z63f7Z63f7Z63efZ63efZ8484f77373f77373f77373f76363ef6363e
+f5252ef5252ef4a4ae74a4ae74a4ae73939e73939e72929e72929e71818de1818de1818de9c9c9cf7f7f7f7f7f7b5b5b5f7f7f7f7f7f7f7f7f71818de1818de2929e72929e72929e73939e74a4ae74a4ae74a4ae75252ef5252ef6363ef6363ef7373f77373f77373f78484f78484f763efZ63f7Z63f7Z63f7Z63f7Z63efZ63efZ63e7Z63e7Z63deZ63deZ63d6Z63d6Z63ceZ63ceZ3931e73931e73931e7d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d663bdZ63bdZ63ceZ63d6Z63d6Z63d6Z63deZ63deZ63e7Z63e7Z63efZ63f7Z63f7Z63f7Z63f7Z63f7Z63efZ63efZ63efZ63efZ7373f76363ef6363ef5252ef5252ef5252ef4a4ae74a4ae73939e73939e7
+3939e72929e71818de1818de1818de9c9c9cf7f7f7f7f7f79c9c9cb5b5b5d6d6d6f7f7f7f7f7f71818de1818de1818de2929e72929e73939e73939e74a4ae74a4ae75252ef5252ef5252ef6363ef6363ef7373f77373f763efZ63efZ63efZ63f7Z63f7Z63f7Z63f7Z63f7Z63efZ63efZ63e7Z63e7Z63deZ63d6Z63d6Z63d6Z63ceZ63bdZ63bdZ3931e7d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d663d6Z63d6Z63deZ63deZ63e7Z63e7Z63efZ63efZ63f7Z63f7Z63f7Z63f7Z63efZ63efZ63efZ63efZ63efZ63e7Z6363ef5252ef5252ef5252ef4a4ae74a4ae74a4ae73939e73939e763c6Z63c6Z63bdZ63bdZ9c9c9c9c9c9cf7f7f7f
+7f7f7b5b5b5d6d6d6d6d6d6d6d6d6f7f7f7f7f7f763bdZ63bdZ63c6Z63c6Z63c6Z3939e73939e74a4ae74a4ae75252ef5252ef5252ef6363ef63e7Z63efZ63efZ63efZ63efZ63efZ63f7Z63f7Z63f7Z63f7Z63efZ63efZ63e7Z63e7Z63deZ63deZ63d6Z63d6Z63ceZ63ceZd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663deZ63e7Z63e7Z63e7Z63efZ63f7Z63f7Z63f7Z63f7Z63efZ63efZ63efZ63efZ63efZ63e7Z63e7Z63e7Z63deZ63deZ63d6Z63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ63bdZ9c9c9cf7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f763bdZ63bd
+Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63d6Z63deZ63deZ63e7Z63e7Z63e7Z63efZ63efZ63efZ63efZ63efZ63f7Z63f7Z63f7Z63f7Z63efZ63efZ63e7Z63e7Z63deZ63d6Zd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663e7Z63efZ63f7Z63f7Z63f7Z63f7Z63f7Z63efZ63efZ63efZ63efZ63efZ63e7Z63e7Z63deZ63deZ63deZ63d6Z63d6Z63ceZ63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ9c9c9cf7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b563bdZ63c6Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63deZ63deZ63deZ63e7Z
+63e7Z63efZ63efZ63efZ63efZ63efZ63f7Z63f7Z63f7Z63f7Z63f7Z63efZ63efZd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663efZ63f7Z63f7Z63f7Z63f7Z63efZ63efZ63efZ63efZ63efZ63e7Z63e7Z63deZ63deZ63deZ63d6Z63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ63bdZ9c9c9cf7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b563bdZ63c6Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63deZ63deZ63deZ63e7Z63e7Z63efZ63efZ63efZ63efZ63efZ63f7Z63f7Z63f7Z6
+3f7Z63efZ63efZd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663f7Z63f7Z63f7Z63efZ63efZ63efZ63efZ63efZ63e7Z63e7Z63e7Z63deZ63deZ63d6Z63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ63bdZ9c9c9cf7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f763bdZ63bdZ63c6Z63c6Z63ceZ63ceZ63ceZ63d6Z63d6Z63deZ63deZ63e7Z63e7Z63e7Z63efZ63efZ63efZ63efZ63efZ63f7Z63f7Z63f7Z63f7Zd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663f7Z63f7Z63efZ63efZ63efZ63efZ63efZ63e7Z63e7Z63deZ63deZ63deZ63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63c6Z63bdZ63bdZ9c9c9c9c9c9cf7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b563bdZ63c6Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63deZ63deZ63deZ63e7Z63e7Z63efZ63efZ63efZ63efZ63efZ63f7Z63f7Z63f7Zd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d
+6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663efZ63efZ63efZ63efZ63efZ63e7Z63e7Z63deZ63deZ63deZ63d6Z63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ63bdZ9c9c9cf7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b563bdZ63c6Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63deZ63deZ63deZ63e7Z63e7Z63efZ63efZ63efZ63efZ63efZ63f7Zd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663efZ63efZ63efZ63e7Z63e7Z63e7Z63deZ63deZ63d6Z63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ63bdZ9c9c9cf7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f79c9c9c63bdZ63c6Z63c6Z63ceZ63ceZ63ceZ63d6Z63d6Z63deZ63deZ63e7Z63e7Z63e7Z63efZ63efZ63efZ63efZd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d
+6d6d6d663efZ63efZ63e7Z63e7Z63deZ63deZ63deZ63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63c6Z63bdZ63bdZ9c9c9c9c9c9cf7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9c63c6Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63deZ63deZ63deZ63e7Z63e7Z63efZ63efZ63efZd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663e7Z63e7Z63e7Z63deZ
+63deZ63d6Z63d6Z63d6Z63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ9c9c9c9c9c9cf7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b563bdZ63c6Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63deZ63deZ63e7Z63e7Z63e7Z63efZd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663e7Z63e7Z63deZ63deZ63deZ63d6Z63d6Z63ceZ63ceZ63c6Z
+63c6Z63bdZ63bdZ63bdZb5b5b5f7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f79c9c9c63bdZ63c6Z63c6Z63ceZ63ceZ63ceZ63d6Z63deZ63deZ63deZ63e7Z63e7Zd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663deZ63d6Z63d6Z63d6Z63ceZ63c6Z63c6Z63c6Z63bdZ63bdZd6d6d6d6d6
+d6f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b563bdZ63c6Z63c6Z63c6Z63ceZ63ceZ63d6Z63d6Z63deZ63deZd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663d6Z63ceZ63ceZ63c6Z63c6Z63bdZ63bdZ63bdZd6d6d6f7f7f7f7f7f7b5b5b5d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b563bdZ63c6Z63c6Z63ceZ63ceZ63ceZ63d6Zd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d663c6Z63c6Z63c6Z63bdZ63bdZd6d6d6f7f7f7f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f763bdZ63c6Z63c6Z63c6Zd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f79c9c9cb5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b59c9c9cb5b5b5b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7f7f7f7b5b5b5d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6f7f7f7f7f7f7d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6Gd6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
+d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6G";
+					- m_srcFile = "C:\\Program Files (x86)\\IBM\\Rational\\Rhapsody Modeler\\7.5\\Share\\PredefinedPictures\\Semaphore.bmp";
+					- m_fileModifiedTime = 3.16.2009::16:19:2;
+				}
+				{ CGIObjectInstance 
+					- _id = GUID 0ab6e8a7-f5df-41c9-bc8d-cd98b46be4da;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 106;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IPart";
+						- _filename = "task_free_resource.sbs";
+						- _subsystem = "SubsystemsPkg::task_free_resource";
+						- _class = "TopLevel";
+						- _name = "task_free_resource_entry";
+						- _id = GUID af38de88-39b7-4b8d-a3f5-9a0041784a4b;
+					}
+					- m_pParent = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+					- m_name = { CGIText 
+						- m_str = "task_free_resource::task_free_resource_entry";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2824;
+					- m_transform = 0.285175 0 0 0.111408 1386.43 268.347 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=50%,50%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_multiplicity = { CGIText 
+						- m_str = "1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+				}
+				{ CGIInheritance 
+					- _id = GUID 22cac040-c510-4809-bcc4-e8863ee524c1;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_free_resource.sbs";
+						- _subsystem = "SubsystemsPkg::task_free_resource";
+						- _class = "TopLevel.task_free_resource_entry";
+						- _name = "blue_led_count_sema_handle";
+						- _id = GUID bfc83ca4-d247-412b-a7d7-17b59ea74057;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "blue_led_count_sema_handle";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 0ab6e8a7-f5df-41c9-bc8d-cd98b46be4da;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID c16dcfcc-3ff7-4cd0-a983-0b7cbf3e21b4;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 142 1382 ;
+					- m_TargetPort = 973 504 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 9c13f6b6-0221-402f-9e62-412b62abeda5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _filename = "task_free_resource.sbs";
+						- _subsystem = "SubsystemsPkg::task_free_resource";
+						- _class = "TopLevel.task_free_resource_entry";
+						- _name = "RedLED";
+						- _id = GUID 79cec3bc-7708-4444-9ab7-efbac1006b20;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "BlueLED";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 8;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 0ab6e8a7-f5df-41c9-bc8d-cd98b46be4da;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 818fa0a8-1db3-4516-b3e4-81eea1beea7d;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 1 1470 125  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 293 347 ;
+					- m_TargetPort = 1053 815 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				
+				- m_access = 'Z';
+				- m_modified = 'N';
+				- m_fileVersion = "";
+				- m_nModifyDate = 0;
+				- m_nCreateDate = 0;
+				- m_creator = "";
+				- m_bScaleWithZoom = 1;
+				- m_arrowStyle = 'S';
+				- m_pRoot = GUID 4961d60d-d659-456f-85ef-ad1fe9239b85;
+				- m_currentLeftTop = 0 0 ;
+				- m_currentRightBottom = 0 0 ;
+			}
+			- _defaultSubsystem = { IHandle 
+				- _m2Class = "ISubsystem";
+				- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
+			}
+		}
+		{ ISubsystem 
+			- fileName = "FreeRTOS_kernel";
+			- _id = GUID fb0e6e69-284a-4c42-ae93-a01a7a7cbdaa;
+		}
+		{ ISubsystem 
+			- fileName = "FRDM_K64F";
+			- _id = GUID 892f86bb-00f1-45de-8343-2d2101cfb66e;
+		}
+		{ ISubsystem 
+			- fileName = "task_free_resource";
+			- _id = GUID a99039a8-d028-452e-aec3-bdbf308f8ea2;
+		}
+	}
+	- weakCGTime = 4.26.2018::18:53:21;
+	- strongCGTime = 4.3.2018::17:52:53;
+	- _defaultComposite = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "483776265320181522087448";
+			- _umlDependencyID = "2421";
+			- weakCGTime = 4.26.2018::16:52:27;
+			- strongCGTime = 4.3.2018::17:52:53;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID af351615-d73c-4086-9c1b-9cd8465ef2db;
+			- _myState = 8192;
+			- _name = "semaphore_t";
+			- _objectCreation = "483778265320181522085448";
+			- _umlDependencyID = "2785";
+			- _declaration = "";
+			- _kind = Language;
+		}
+	}
+	- _configurationRelatedTime = 4.26.2018::16:52:27;
+}
+

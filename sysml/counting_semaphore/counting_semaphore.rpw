@@ -1,0 +1,137 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 52;
+				- m_nTop = 52;
+				- m_nRight = 326;
+				- m_nBottom = 640;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "SubsystemsPkg.sbs";
+				- _subsystem = "SubsystemsPkg";
+				- _class = "";
+				- _name = "Subsystem Architecture";
+				- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
+			}
+			- _UpLeft = 552 28 ;
+			- _DownRight = 1536 756 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 78;
+				- m_nTop = 78;
+				- m_nRight = 352;
+				- m_nBottom = 666;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "task_blue_LED_OFF.sbs";
+				- _subsystem = "SubsystemsPkg::task_blue_LED_OFF";
+				- _class = "TopLevel.task_blue_LED_OFF_entry";
+				- _name = "StatechartDiagram";
+				- _id = GUID 398da3e6-94cd-483b-bbc2-beb2cd28a1fa;
+			}
+			- _UpLeft = 436 226 ;
+			- _DownRight = 647 697 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 208;
+				- m_nTop = 208;
+				- m_nRight = 1379;
+				- m_nBottom = 800;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "task_blue_LED_ON.sbs";
+				- _subsystem = "SubsystemsPkg::task_blue_LED_ON";
+				- _class = "TopLevel.task_blue_LED_ON_entry";
+				- _name = "StatechartDiagram";
+				- _id = GUID 4d3bce9f-34e4-4f4e-adbf-aab20b43810e;
+			}
+			- _UpLeft = 295 87 ;
+			- _DownRight = 1354 584 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 1235;
+				- m_nBottom = 732;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "task_free_resource.sbs";
+				- _subsystem = "SubsystemsPkg::task_free_resource";
+				- _class = "TopLevel.task_free_resource_entry";
+				- _name = "StatechartDiagram";
+				- _id = GUID 5c1e2553-02c7-4bd1-a83a-c9ae0aebca8b;
+			}
+			- _UpLeft = 340 381 ;
+			- _DownRight = 1105 778 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+	}
+	- _fullName = "D:\\Users\\guilherme\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\counting_semaphore\\counting_semaphore";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+}
+
