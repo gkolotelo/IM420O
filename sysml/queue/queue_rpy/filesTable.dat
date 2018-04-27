@@ -1,0 +1,17 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 10;
+	- value = "D:\\Users\\guilherme\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\Mutex\\Projects.rpl" ""
+	"queue.rpy" ""
+	"queue_rpy\\Default.sbs" "Default"
+	"queue_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"queue_rpy\\FRDM_K64F.sbs" "SubsystemsPkg::FRDM_K64F"
+	"queue_rpy\\FreeRTOS_kernel.sbs" "SubsystemsPkg::FreeRTOS_kernel"
+	"queue_rpy\\SubsystemsPkg.sbs" "SubsystemsPkg"
+	"queue_rpy\\libc.sbs" "libc"
+	"queue_rpy\\task_recv.sbs" "SubsystemsPkg::task_recv"
+	"queue_rpy\\task_send.sbs" "SubsystemsPkg::task_send"
+	
+}
+

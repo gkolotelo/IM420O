@@ -1,0 +1,150 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ IComponent 
+	- _id = GUID b6a2c8f6-d62e-46a1-beb9-c6731dd35cc8;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _objectCreation = "308785262820182123802430";
+	- _umlDependencyID = "3248";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID a0a06b25-dedb-4afd-8cca-30fe8b2688ac;
+		- _myState = 73728;
+		- _name = "Files";
+		- _objectCreation = "308787262820182123800430";
+		- _umlDependencyID = "2091";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID d2155f02-2e94-4d0f-aa04-09b239df3e11;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID d2155f02-2e94-4d0f-aa04-09b239df3e11;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _objectCreation = "308789262820182123798430";
+			- _umlDependencyID = "2917";
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 17a797f5-b899-44a2-9a1d-4b866548271d;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _objectCreation = "308791262820182123796430";
+				- _umlDependencyID = "2908";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID 0d255c40-acbe-4325-96da-7a9941a7c756;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SubsystemsPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SubsystemsPkg";
+			- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "task_blue_LED_OFF.sbs";
+			- _subsystem = "SubsystemsPkg";
+			- _class = "";
+			- _name = "task_blue_LED_OFF";
+			- _id = GUID b0feb7e8-fe99-4496-9988-9c62d3e6fdb6;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "task_blue_LED_ON.sbs";
+			- _subsystem = "SubsystemsPkg";
+			- _class = "";
+			- _name = "task_blue_LED_ON";
+			- _id = GUID 78b75930-b396-4e61-9a93-b085cd95cd4c;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FreeRTOS_kernel.sbs";
+			- _subsystem = "SubsystemsPkg";
+			- _class = "";
+			- _name = "FreeRTOS_kernel";
+			- _id = GUID fb0e6e69-284a-4c42-ae93-a01a7a7cbdaa;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FRDM_K64F.sbs";
+			- _subsystem = "SubsystemsPkg";
+			- _class = "";
+			- _name = "FRDM_K64F";
+			- _id = GUID 892f86bb-00f1-45de-8343-2d2101cfb66e;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "task_deleter.sbs";
+			- _subsystem = "SubsystemsPkg";
+			- _class = "";
+			- _name = "task_deleter";
+			- _id = GUID 705b8b30-7aa5-4354-89df-c326bb07233f;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 4.27.2018::0:28:30;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+
