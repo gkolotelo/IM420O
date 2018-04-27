@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : K64P144M120SF5RM, Rev.2, January 2014
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-22, 16:44, # CodeGen: 11
+**     Date/Time   : 2018-04-26, 18:41, # CodeGen: 17
 **     Abstract    :
 **
 **     Settings    :
@@ -109,12 +109,15 @@ void Common_Init(void)
 void Components_Init(void)
 {
 
-  /*! task_blue_LED_ON Auto initialization start */ 
-  (void)task_blue_LED_ON_Init();
-  /*! task_blue_LED_ON Auto initialization end */                       
   /*! task_blue_LED_OFF Auto initialization start */ 
   (void)task_blue_LED_OFF_Init();
   /*! task_blue_LED_OFF Auto initialization end */                       
+  /*! task_blue_LED_ON Auto initialization start */ 
+  (void)task_blue_LED_ON_Init();
+  /*! task_blue_LED_ON Auto initialization end */                       
+  /*! task_deleter Auto initialization start */ 
+  (void)task_deleter_Init();
+  /*! task_deleter Auto initialization end */                       
 }
 #endif /* CPU_COMPONENTS_INIT */
 

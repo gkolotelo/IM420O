@@ -43,6 +43,8 @@ extern "C" {
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
 extern mutex_t blue_led_mutex_handle;
+extern task_handler_t task_blue_LED_OFF_task_handler;
+extern task_handler_t task_blue_LED_ON_task_handler;
 
 /*
 ** ===================================================================
@@ -59,6 +61,7 @@ void task_blue_LED_OFF_entry(os_task_param_t task_init_data)
 
 	int state = 1;
 	osa_status_t status;
+	OSA_TimeDelay(10);
   
 #ifdef PEX_USE_RTOS
   while (1) {
@@ -100,8 +103,8 @@ void task_blue_LED_OFF_entry(os_task_param_t task_init_data)
 
 		  case 5: // Unlock mutex
 			  OSA_MutexUnlock(&blue_led_mutex_handle); // Will not succeed!
-			  OSA_TimeDelay(10);
 			  state = 1;
+			  OSA_TimeDelay(10);
 			  break;
 	  }
    
@@ -127,6 +130,7 @@ void task_blue_LED_ON_entry(os_task_param_t task_init_data)
   /* Write your local variable definition here */
 
 	int state = 1;
+	OSA_TimeDelay(1);
   
 #ifdef PEX_USE_RTOS
   while (1) {
@@ -135,7 +139,7 @@ void task_blue_LED_ON_entry(os_task_param_t task_init_data)
 
 	  switch(state){
 		  case 1: // Acquire semaphore token
-			  if(OSA_SemaWait(&blue_led_mutex_handle,OSA_WAIT_FOREVER) == kStatus_OSA_Success)
+			  if(OSA_MutexLock(&blue_led_mutex_handle,OSA_WAIT_FOREVER) == kStatus_OSA_Success)
 			  {
 				  state = 2;
 			  }
@@ -153,10 +157,51 @@ void task_blue_LED_ON_entry(os_task_param_t task_init_data)
 
 		  case 4: // Release token
 			  OSA_MutexUnlock(&blue_led_mutex_handle);
-			  OSA_TimeDelay(10);
 			  state = 1;
 	  }
    
+    
+#ifdef PEX_USE_RTOS   
+  }
+#endif    
+}
+
+/*
+** ===================================================================
+**     Callback    : task_deleter_entry
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void task_deleter_entry(os_task_param_t task_init_data)
+{
+  /* Write your local variable definition here */
+
+	OSA_TimeDelay(11000);
+	if(OSA_MutexLock(&blue_led_mutex_handle,OSA_WAIT_FOREVER) == kStatus_OSA_Success)
+	{
+		if(OSA_MutexDestroy(&blue_led_mutex_handle) == kStatus_OSA_Success)
+		{
+			ledrgb_setGreenLed();
+			OSA_TaskDestroy(task_blue_LED_OFF_task_handler);
+			OSA_TaskDestroy(task_blue_LED_ON_task_handler);
+		}
+	}
+
+
+  
+#ifdef PEX_USE_RTOS
+  while (1) {
+#endif
+    /* Write your code here ... */
+    
+    
+   
+
+    
+    
     
 #ifdef PEX_USE_RTOS   
   }

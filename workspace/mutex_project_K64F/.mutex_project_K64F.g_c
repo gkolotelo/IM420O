@@ -742,14 +742,15 @@
         <Line>rtos_main_task</Line>
       </GenEventModules>
       <GenMethodsInEvents lines_count="0" />
-      <GenMethodsInos_tasks lines_count="2">
-        <Line>task_blue_LED_OFF_entry</Line>
+      <GenMethodsInos_tasks lines_count="3">
+        <Line>task_deleter_entry</Line>
         <Line>task_blue_LED_ON_entry</Line>
+        <Line>task_blue_LED_OFF_entry</Line>
       </GenMethodsInos_tasks>
       <GenMethodsInrtos_main_task lines_count="1">
         <Line>main_task</Line>
       </GenMethodsInrtos_main_task>
-      <GenAllModules lines_count="11">
+      <GenAllModules lines_count="12">
         <Line>clockMan1</Line>
         <Line>Cpu</Line>
         <Line>Events</Line>
@@ -761,21 +762,23 @@
         <Line>rtos_main_task</Line>
         <Line>task_blue_LED_OFF</Line>
         <Line>task_blue_LED_ON</Line>
+        <Line>task_deleter</Line>
       </GenAllModules>
       <GenExternModules lines_count="0" />
-      <GenBeanModules lines_count="7">
+      <GenBeanModules lines_count="8">
         <Line>clockMan1</Line>
         <Line>pin_init</Line>
         <Line>osa1</Line>
         <Line>free_rtos</Line>
         <Line>MainTask</Line>
-        <Line>task_blue_LED_ON</Line>
         <Line>task_blue_LED_OFF</Line>
+        <Line>task_blue_LED_ON</Line>
+        <Line>task_deleter</Line>
       </GenBeanModules>
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>25</ProjectModificationStamp>
+    <ProjectModificationStamp>30</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -784,7 +787,7 @@
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
     <HeaderAge>1284933004</HeaderAge>
-    <CodeAge>1284933004</CodeAge>
+    <CodeAge>1285199165</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -1941,50 +1944,13 @@
       </InhrCompID_24>
     </InhrCompID_23>
   </ComponentID_21>
-  <ComponentID_26>
-    <Generated>true</Generated>
-    <GenCompName>task_blue_LED_ON</GenCompName>
-    <GenComponentVersion>1.3.0</GenComponentVersion>
-    <GenDriverVersion>01.00</GenDriverVersion>
-    <GenEventModule>os_tasks</GenEventModule>
-    <HeaderAge>1284933004</HeaderAge>
-    <CodeAge>1284933004</CodeAge>
-    <AsemblAge>-1</AsemblAge>
-    <GenNumMethods>3</GenNumMethods>
-    <Init>true</Init>
-    <GetHandler>false</GetHandler>
-    <Deinit>false</Deinit>
-    <GenNumEvents>1</GenNumEvents>
-    <TaskCode_Selected>3</TaskCode_Selected>
-    <TaskCode_Name>task_blue_LED_ON_entry</TaskCode_Name>
-    <TaskCode_Priority>interrupts disabled</TaskCode_Priority>
-    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
-    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
-    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
-    <GenMethodPos>2</GenMethodPos>
-    <MethodPos>
-      <MethodPos0>Init</MethodPos0>
-      <MethodType>internal_method</MethodType>
-      <ModuleType>Header</ModuleType>
-      <LineBeg>69</LineBeg>
-      <LineEnd>80</LineEnd>
-    </MethodPos>
-    <MethodPos>
-      <MethodPos1>Init</MethodPos1>
-      <MethodType>internal_method</MethodType>
-      <ModuleType>Code</ModuleType>
-      <LineBeg>61</LineBeg>
-      <LineEnd>87</LineEnd>
-    </MethodPos>
-    <GenExtraFilesCount>0</GenExtraFilesCount>
-  </ComponentID_26>
   <ComponentID_27>
     <Generated>true</Generated>
     <GenCompName>task_blue_LED_OFF</GenCompName>
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>os_tasks</GenEventModule>
-    <HeaderAge>1284933004</HeaderAge>
+    <HeaderAge>1285199094</HeaderAge>
     <CodeAge>1284933004</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>3</GenNumMethods>
@@ -2015,6 +1981,80 @@
     </MethodPos>
     <GenExtraFilesCount>0</GenExtraFilesCount>
   </ComponentID_27>
+  <ComponentID_26>
+    <Generated>true</Generated>
+    <GenCompName>task_blue_LED_ON</GenCompName>
+    <GenComponentVersion>1.3.0</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule>os_tasks</GenEventModule>
+    <HeaderAge>1285199279</HeaderAge>
+    <CodeAge>1284933004</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>3</GenNumMethods>
+    <Init>true</Init>
+    <GetHandler>false</GetHandler>
+    <Deinit>false</Deinit>
+    <GenNumEvents>1</GenNumEvents>
+    <TaskCode_Selected>3</TaskCode_Selected>
+    <TaskCode_Name>task_blue_LED_ON_entry</TaskCode_Name>
+    <TaskCode_Priority>interrupts disabled</TaskCode_Priority>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>2</GenMethodPos>
+    <MethodPos>
+      <MethodPos0>Init</MethodPos0>
+      <MethodType>internal_method</MethodType>
+      <ModuleType>Header</ModuleType>
+      <LineBeg>69</LineBeg>
+      <LineEnd>80</LineEnd>
+    </MethodPos>
+    <MethodPos>
+      <MethodPos1>Init</MethodPos1>
+      <MethodType>internal_method</MethodType>
+      <ModuleType>Code</ModuleType>
+      <LineBeg>61</LineBeg>
+      <LineEnd>87</LineEnd>
+    </MethodPos>
+    <GenExtraFilesCount>0</GenExtraFilesCount>
+  </ComponentID_26>
+  <ComponentID_39>
+    <Generated>true</Generated>
+    <GenCompName>task_deleter</GenCompName>
+    <GenComponentVersion>1.3.0</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule>os_tasks</GenEventModule>
+    <HeaderAge>1285199094</HeaderAge>
+    <CodeAge>1285197133</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>3</GenNumMethods>
+    <Init>true</Init>
+    <GetHandler>false</GetHandler>
+    <Deinit>false</Deinit>
+    <GenNumEvents>1</GenNumEvents>
+    <TaskCode_Selected>3</TaskCode_Selected>
+    <TaskCode_Name>task_deleter_entry</TaskCode_Name>
+    <TaskCode_Priority>interrupts disabled</TaskCode_Priority>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>2</GenMethodPos>
+    <MethodPos>
+      <MethodPos0>Init</MethodPos0>
+      <MethodType>internal_method</MethodType>
+      <ModuleType>Header</ModuleType>
+      <LineBeg>69</LineBeg>
+      <LineEnd>80</LineEnd>
+    </MethodPos>
+    <MethodPos>
+      <MethodPos1>Init</MethodPos1>
+      <MethodType>internal_method</MethodType>
+      <ModuleType>Code</ModuleType>
+      <LineBeg>61</LineBeg>
+      <LineEnd>87</LineEnd>
+    </MethodPos>
+    <GenExtraFilesCount>0</GenExtraFilesCount>
+  </ComponentID_39>
   <UsedSrcFiles>
     <SrcFile0>Drivers\PEx_Kinetis.src=1200686672</SrcFile0>
     <SrcFile1>Drivers\Kinetis\fsl_mcg_hal.drv=-1</SrcFile1>

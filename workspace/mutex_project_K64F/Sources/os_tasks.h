@@ -39,6 +39,7 @@
 #include "MainTask.h"
 #include "task_blue_LED_ON.h"
 #include "task_blue_LED_OFF.h"
+#include "task_deleter.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -151,6 +152,17 @@ void task_blue_LED_OFF_entry(os_task_param_t task_init_data);
 ** ===================================================================
 */
 void task_blue_LED_ON_entry(os_task_param_t task_init_data);
+
+/*
+** ===================================================================
+**     Callback    : task_deleter_entry
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void task_deleter_entry(os_task_param_t task_init_data);
 
 /* END os_tasks */
 

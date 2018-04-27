@@ -38,6 +38,7 @@
 #include "MainTask.h"
 #include "task_blue_LED_ON.h"
 #include "task_blue_LED_OFF.h"
+#include "task_deleter.h"
 
 #ifdef __cplusplus
 extern "C" {

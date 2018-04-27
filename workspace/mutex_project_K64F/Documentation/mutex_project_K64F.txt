@@ -276,11 +276,14 @@ Module "osa1"      (component fsl_os_abstraction)
    - osa1_OSA_Init -Initializes the RTOS services.
    - osa1_OSA_Start -Starts the RTOS.
 
+Module "task_blue_LED_OFF" (component OS_Task)
+   - task_blue_LED_OFF_Init -Creates and starts a task.
+
 Module "task_blue_LED_ON" (component OS_Task)
    - task_blue_LED_ON_Init -Creates and starts a task.
 
-Module "task_blue_LED_OFF" (component OS_Task)
-   - task_blue_LED_OFF_Init -Creates and starts a task.
+Module "task_deleter" (component OS_Task)
+   - task_deleter_Init -Creates and starts a task.
 
 Module "Cpu"       (component MK64FN1M0LL12_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 
