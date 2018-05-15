@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
 	- _myState = 8192;
 	- _name = "SubsystemsPkg";
-	- _objectCreation = "483772265320181522091448";
-	- _umlDependencyID = "2981";
+	- _objectCreation = "14477915232018912354514";
+	- _umlDependencyID = "2927";
 	- _lastID = 9;
 	- Declaratives = { IRPYRawContainer 
 		- size = 6;
@@ -160,9 +160,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "Subsystem Architecture";
-			- _objectCreation = "483774265320181522089448";
-			- _umlDependencyID = "3836";
-			- _lastModifiedTime = "4.26.2018::18:53:46";
+			- _objectCreation = "14491715232018912216514";
+			- _umlDependencyID = "3764";
+			- _lastModifiedTime = "5.15.2018::13:18:9";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 5fe57b74-2d92-479a-9d60-2261dac5f127;
 				- m_type = 0;
@@ -1325,7 +1325,7 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 					- _id = GUID 0ab6e8a7-f5df-41c9-bc8d-cd98b46be4da;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
 							{ IPropertySubject 
 								- _Name = "General";
@@ -1341,6 +1341,25 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 												- _Name = "FitBoxToItsTextuals";
 												- _Value = "False";
 												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "ObjectModelGe";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Object";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Compartments";
+												- _Value = "Attribute,PrimitiveOperation,Description,";
+												- _Type = MultiLine;
 											}
 										}
 									}
@@ -1371,7 +1390,7 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 5;
 					}
-					- m_drawBehavior = 2824;
+					- m_drawBehavior = 2632;
 					- m_transform = 0.285175 0 0 0.111408 1386.43 268.347 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
@@ -1390,11 +1409,21 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
-					- frameset = "<frameset rows=50%,50%>
+					- frameset = "<frameset rows=33%,33%,33%>
 <frame name=AttributeListCompartment>
-<frame name=PrimitiveOperationListCompartment>";
+<frame name=PrimitiveOperationListCompartment>
+<frame name=DescriptionCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 0;
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "task_free_resource.sbs";
+							- _subsystem = "SubsystemsPkg::task_free_resource";
+							- _class = "TopLevel.task_free_resource_entry";
+							- _name = "state";
+							- _id = GUID 657aa35d-8c56-4d76-b77e-db22f06737dc;
+						}
 					}
 					- Operations = { IRPYRawContainer 
 						- size = 0;
@@ -1601,7 +1630,7 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 			- _id = GUID a99039a8-d028-452e-aec3-bdbf308f8ea2;
 		}
 	}
-	- weakCGTime = 4.26.2018::18:53:21;
+	- weakCGTime = 5.15.2018::13:16:59;
 	- strongCGTime = 4.3.2018::17:52:53;
 	- _defaultComposite = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
 	- _eventsBaseID = -1;
@@ -1612,16 +1641,13 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 			- _id = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "483776265320181522087448";
-			- _umlDependencyID = "2421";
-			- weakCGTime = 4.26.2018::16:52:27;
+			- _objectCreation = "14504115232018912092514";
+			- _umlDependencyID = "2340";
+			- weakCGTime = 4.26.2018::18:53:21;
 			- strongCGTime = 4.3.2018::17:52:53;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 		}
@@ -1633,8 +1659,8 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 			- _id = GUID af351615-d73c-4086-9c1b-9cd8465ef2db;
 			- _myState = 8192;
 			- _name = "semaphore_t";
-			- _objectCreation = "483778265320181522085448";
-			- _umlDependencyID = "2785";
+			- _objectCreation = "14504315232018912090514";
+			- _umlDependencyID = "2704";
 			- _declaration = "";
 			- _kind = Language;
 		}

@@ -1,35 +1,28 @@
-04, 26, 2018 (19:32:11): Starting Pre-Save actions
+05, 15, 2018 (09:31:23): Starting Pre-Save actions
 
-04, 26, 2018 (19:32:11): Starting Dialogs Check/Save
-04, 26, 2018 (19:32:11): Finished Dialogs Check/Save
-04, 26, 2018 (19:32:11): Starting Controlled Files Resolution
-04, 26, 2018 (19:32:11): Finished Controlled Files Resolution
-04, 26, 2018 (19:32:11): Finished Pre-Save actions
+05, 15, 2018 (09:31:23): Starting Dialogs Check/Save
+05, 15, 2018 (09:31:23): Finished Dialogs Check/Save
+05, 15, 2018 (09:31:23): Starting Controlled Files Resolution
+05, 15, 2018 (09:31:23): Finished Controlled Files Resolution
+05, 15, 2018 (09:31:23): Finished Pre-Save actions
 
-04, 26, 2018 (19:32:11): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex.rpy
-04, 26, 2018 (19:32:11): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex.rpy on Thursday, April 26, 2018 (19:32:11)
+05, 15, 2018 (09:31:23): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex.rpy
+05, 15, 2018 (09:31:23): 
+Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex.rpy on Tuesday, May 15, 2018 (09:31:23)
 
-04, 26, 2018 (19:32:11): version 8.5.2
-04, 26, 2018 (19:32:11): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\filesTable.dat on Thursday, April 26, 2018 (19:32:11)
+05, 15, 2018 (09:31:23): version 8.5.2
+05, 15, 2018 (09:31:23): 
+Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\filesTable.dat on Tuesday, May 15, 2018 (09:31:23)
 
-04, 26, 2018 (19:32:11): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\filesTable.dat on Thursday, April 26, 2018 (19:32:11)
+05, 15, 2018 (09:31:23): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\filesTable.dat on Tuesday, May 15, 2018 (09:31:23)
 
-04, 26, 2018 (19:32:11): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\SubsystemsPkg.sbs
-04, 26, 2018 (19:32:11): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\SubsystemsPkg.sbs on Thursday, April 26, 2018 (19:32:11)
+05, 15, 2018 (09:31:23): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\task_deleter.sbs
+05, 15, 2018 (09:31:23): 
+Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\task_deleter.sbs on Tuesday, May 15, 2018 (09:31:23)
 
-04, 26, 2018 (19:32:11): version 8.5.2
-04, 26, 2018 (19:32:11): Creating D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\FreeRTOS_kernel.sbs
-04, 26, 2018 (19:32:11): 
-Started writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\FreeRTOS_kernel.sbs on Thursday, April 26, 2018 (19:32:11)
+05, 15, 2018 (09:31:23): version 8.5.2
+05, 15, 2018 (09:31:23): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\task_deleter.sbs on Tuesday, May 15, 2018 (09:31:23)
 
-04, 26, 2018 (19:32:11): version 8.5.2
-04, 26, 2018 (19:32:11): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\FreeRTOS_kernel.sbs on Thursday, April 26, 2018 (19:32:11)
+05, 15, 2018 (09:31:23): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex.rpy on Tuesday, May 15, 2018 (09:31:23)
 
-04, 26, 2018 (19:32:11): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex_rpy\SubsystemsPkg.sbs on Thursday, April 26, 2018 (19:32:11)
-
-04, 26, 2018 (19:32:11): Finished writing D:\Users\guilherme\Documents\University\Current Semester\IM420_O\IM420O\sysml\Mutex\Mutex.rpy on Thursday, April 26, 2018 (19:32:11)
-
-04, 26, 2018 (19:32:11): End Log
+05, 15, 2018 (09:31:23): End Log
