@@ -1,77 +1,77 @@
-05, 15, 2018 (09:23:14): Starting Pre-Save actions
+05, 15, 2018 (13:40:13): Starting Pre-Save actions
 
-05, 15, 2018 (09:23:14): Starting Dialogs Check/Save
-05, 15, 2018 (09:23:14): Finished Dialogs Check/Save
-05, 15, 2018 (09:23:14): Starting Controlled Files Resolution
-05, 15, 2018 (09:23:14): Finished Controlled Files Resolution
-05, 15, 2018 (09:23:14): Finished Pre-Save actions
+05, 15, 2018 (13:40:13): Starting Dialogs Check/Save
+05, 15, 2018 (13:40:13): Finished Dialogs Check/Save
+05, 15, 2018 (13:40:13): Starting Controlled Files Resolution
+05, 15, 2018 (13:40:13): Finished Controlled Files Resolution
+05, 15, 2018 (13:40:13): Finished Pre-Save actions
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore.rpy
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore.rpy on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore.rpy
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore.rpy on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\filesTable.dat on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\filesTable.dat on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\filesTable.dat on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\filesTable.dat on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\Default.sbs
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\Default.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\Default.sbs
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\Default.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\Default.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\Default.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\SubsystemsPkg.sbs
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\SubsystemsPkg.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\SubsystemsPkg.sbs
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\SubsystemsPkg.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_OFF.sbs
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_OFF.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_OFF.sbs
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_OFF.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_OFF.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_OFF.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_ON.sbs
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_ON.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_ON.sbs
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_ON.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_ON.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_blue_LED_ON.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\FreeRTOS_kernel.sbs
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\FreeRTOS_kernel.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\FreeRTOS_kernel.sbs
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\FreeRTOS_kernel.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\FreeRTOS_kernel.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\FreeRTOS_kernel.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\FRDM_K64F.sbs
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\FRDM_K64F.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\FRDM_K64F.sbs
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\FRDM_K64F.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\FRDM_K64F.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\FRDM_K64F.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_free_resource.sbs
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_free_resource.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_free_resource.sbs
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_free_resource.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\task_free_resource.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\task_free_resource.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\SubsystemsPkg.sbs on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\SubsystemsPkg.sbs on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Creating \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\DefaultComponent.cmp
-05, 15, 2018 (09:23:14): 
-Started writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\DefaultComponent.cmp on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Creating C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\DefaultComponent.cmp
+05, 15, 2018 (13:40:13): 
+Started writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\DefaultComponent.cmp on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): version 8.5.2
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore_rpy\DefaultComponent.cmp on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): version 8.5.2
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore_rpy\DefaultComponent.cmp on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): Finished writing \\vmware-host\Shared Folders\Documents\University\Current Semester\IM420_O\IM420O\sysml\counting_semaphore\counting_semaphore.rpy on Tuesday, May 15, 2018 (09:23:14)
+05, 15, 2018 (13:40:13): Finished writing C:\Users\aluno\Documents\IM420o\sysml\counting_semaphore\counting_semaphore.rpy on Tuesday, May 15, 2018 (13:40:13)
 
-05, 15, 2018 (09:23:14): End Log
+05, 15, 2018 (13:40:13): End Log
