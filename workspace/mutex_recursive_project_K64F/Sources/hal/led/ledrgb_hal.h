@@ -11,10 +11,6 @@
 #ifndef SOURCES_LEDRGB_HAL_H_
 #define SOURCES_LEDRGB_HAL_H_
 
-/* Mutex handles */
-mutex_t blue_led_mutex_handle;
-mutex_t red_led_mutex_handle;
-mutex_t green_led_mutex_handle;
 
 /* FDRMKL25Z RGB LED pins defintion */
 #define RED_LED_PIN     (uint32_t) 22u

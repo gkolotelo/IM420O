@@ -74,7 +74,7 @@ all: mutex_project_K64F.elf secondary-outputs
 mutex_project_K64F.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM GNU C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "D:/Users/guilherme/Documents/University/Current Semester/IM420_O/IM420O/workspace/mutex_project_K64F/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"D:/Users/guilherme/Documents/University/Current Semester/IM420_O/IM420O/workspace/mutex_project_K64F/Project_Settings/Linker_Files" -Wl,-Map,"mutex_project_K64F.map" -specs=nosys.specs -specs=nano.specs -Xlinker -z -Xlinker muldefs -o "mutex_project_K64F.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "//vmware-host/Shared Folders/Documents/University/Current Semester/IM420_O/IM420O/workspace/mutex_project_K64F/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"//vmware-host/Shared Folders/Documents/University/Current Semester/IM420_O/IM420O/workspace/mutex_project_K64F/Project_Settings/Linker_Files" -Wl,-Map,"mutex_project_K64F.map" -specs=nosys.specs -specs=nano.specs -Xlinker -z -Xlinker muldefs -o "mutex_project_K64F.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

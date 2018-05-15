@@ -28,11 +28,11 @@ void ledrgb_init(void)
 {
 	/* Mutex setup */
 	OSA_MutexCreate(&blue_led_mutex_handle);
-	OSA_MutexLock(&blue_led_mutex_handle,OSA_WAIT_FOREVER)
+	OSA_MutexLock(&blue_led_mutex_handle,OSA_WAIT_FOREVER);
 	OSA_MutexCreate(&red_led_mutex_handle);
-	OSA_MutexLock(&red_led_mutex_handle,OSA_WAIT_FOREVER)
+	OSA_MutexLock(&red_led_mutex_handle,OSA_WAIT_FOREVER);
 	OSA_MutexCreate(&green_led_mutex_handle);
-	OSA_MutexLock(&green_led_mutex_handle,OSA_WAIT_FOREVER)
+	OSA_MutexLock(&green_led_mutex_handle,OSA_WAIT_FOREVER);
 
 
     /* un-gate port clock*/
