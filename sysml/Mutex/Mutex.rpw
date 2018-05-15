@@ -14,7 +14,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -31;
+				- m_ptMaxPositionY = -30;
 				- m_nLeft = 52;
 				- m_nTop = 52;
 				- m_nRight = 326;
@@ -29,20 +29,20 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _name = "Subsystem Architecture";
 				- _id = GUID 993cc225-ba70-4bed-a807-6df9b9f16efb;
 			}
-			- _UpLeft = 350 0 ;
-			- _DownRight = 587 528 ;
+			- _UpLeft = 502 0 ;
+			- _DownRight = 741 534 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -31;
+				- m_ptMaxPositionY = -30;
 				- m_nLeft = 78;
 				- m_nTop = 78;
 				- m_nRight = 352;
@@ -58,7 +58,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _id = GUID 398da3e6-94cd-483b-bbc2-beb2cd28a1fa;
 			}
 			- _UpLeft = 364 258 ;
-			- _DownRight = 575 729 ;
+			- _DownRight = 1535 1001 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
@@ -70,7 +70,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -31;
+				- m_ptMaxPositionY = -30;
 				- m_nLeft = 208;
 				- m_nTop = 208;
 				- m_nRight = 1379;
@@ -86,19 +86,19 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _id = GUID 4d3bce9f-34e4-4f4e-adbf-aab20b43810e;
 			}
 			- _UpLeft = 252 155 ;
-			- _DownRight = 1056 532 ;
+			- _DownRight = 1056 533 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 1;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -31;
+				- m_ptMaxPositionY = -30;
 				- m_nLeft = 104;
 				- m_nTop = 104;
 				- m_nRight = 1410;
@@ -114,12 +114,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 				- _id = GUID 621690e7-3b91-4071-9aca-6c9726ed8039;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1571 865 ;
+			- _DownRight = 1737 741 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
 	}
-	- _fullName = "D:\\Users\\guilherme\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\Mutex\\Mutex";
+	- _fullName = "\\\\vmware-host\\Shared Folders\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\Mutex\\Mutex";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}

@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID ac53ca5d-a261-4358-9038-bbaa2cec244e;
 	- _myState = 8192;
 	- _name = "SubsystemsPkg";
-	- _objectCreation = "1199626322018191624411";
-	- _umlDependencyID = "2870";
+	- _objectCreation = "361354515262018912738536";
+	- _umlDependencyID = "2983";
 	- _lastID = 9;
 	- Declaratives = { IRPYRawContainer 
 		- size = 6;
@@ -160,9 +160,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "Subsystem Architecture";
-			- _objectCreation = "1199826322018191622411";
-			- _umlDependencyID = "3716";
-			- _lastModifiedTime = "4.26.2018::22:32:4";
+			- _objectCreation = "361354715262018912736536";
+			- _umlDependencyID = "3829";
+			- _lastModifiedTime = "5.15.2018::13:26:7";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 5fe57b74-2d92-479a-9d60-2261dac5f127;
 				- m_type = 0;
@@ -1393,7 +1393,7 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 					- _id = GUID 49b4e87e-0fcd-49a6-ae4c-e884aa029622;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
 							{ IPropertySubject 
 								- _Name = "General";
@@ -1409,6 +1409,25 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 												- _Name = "FitBoxToItsTextuals";
 												- _Value = "False";
 												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "ObjectModelGe";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Object";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Compartments";
+												- _Value = "Attribute,PrimitiveOperation,Description,";
+												- _Type = MultiLine;
 											}
 										}
 									}
@@ -1458,9 +1477,10 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
-					- frameset = "<frameset rows=50%,50%>
+					- frameset = "<frameset rows=33%,33%,33%>
 <frame name=AttributeListCompartment>
-<frame name=PrimitiveOperationListCompartment>";
+<frame name=PrimitiveOperationListCompartment>
+<frame name=DescriptionCompartment>";
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
 					}
@@ -1761,7 +1781,7 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 			- _id = GUID 705b8b30-7aa5-4354-89df-c326bb07233f;
 		}
 	}
-	- weakCGTime = 4.26.2018::22:32:4;
+	- weakCGTime = 5.15.2018::13:26:6;
 	- strongCGTime = 4.3.2018::17:52:53;
 	- _defaultComposite = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
 	- _eventsBaseID = -1;
@@ -1772,16 +1792,13 @@ d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6
 			- _id = GUID 0b8dee6f-8f56-4f87-822b-9059da6ad2df;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "11104226322018191578411";
-			- _umlDependencyID = "2340";
-			- weakCGTime = 4.26.2018::20:36:19;
+			- _objectCreation = "361358315262018912700536";
+			- _umlDependencyID = "2405";
+			- weakCGTime = 4.26.2018::22:32:4;
 			- strongCGTime = 4.3.2018::17:52:53;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 		}

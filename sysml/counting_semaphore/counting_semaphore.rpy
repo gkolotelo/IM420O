@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID 43c22564-5ee8-4a11-8b2b-137e73011803;
 	- _myState = 8192;
 	- _name = "counting_semaphore";
-	- _objectCreation = "5531697263220181629747455";
-	- _umlDependencyID = "3595";
+	- _objectCreation = "14477315232018912360514";
+	- _umlDependencyID = "3468";
 	- _lastID = 1;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;

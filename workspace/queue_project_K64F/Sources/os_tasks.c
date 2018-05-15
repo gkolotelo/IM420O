@@ -76,9 +76,11 @@ void task_recv_entry(os_task_param_t task_init_data)
     
 	  switch(state){
 	  	  case 1: // Receive message
-	  		  status = OSA_MsgQGet(led_queue_handle,&led_message,OSA_WAIT_FOREVER);
+	  		  status = OSA_MsgQGet(led_queue_handle,&led_message,2000);
 	  		  if(status == kStatus_OSA_Success)
 	  			  state = 2;
+	  		  if(status == kStatus_OSA_Timeout)
+	  			  state = 4;
 	  		  break;
 
 	  	  case 2: // Set LEDs
@@ -98,6 +100,13 @@ void task_recv_entry(os_task_param_t task_init_data)
 	  		  OSA_TimeDelay(200);
 	  		  state = 1;
 	  		  break;
+
+	  	  case 4: // Clear LEDs
+	  		ledrgb_clearRedLed();
+	  		ledrgb_clearGreenLed();
+	  		ledrgb_clearBlueLed();
+	  		state = 1;
+	  		break;
 
 	  }
     

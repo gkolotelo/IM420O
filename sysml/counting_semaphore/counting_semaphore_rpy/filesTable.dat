@@ -2,7 +2,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
 
 - filesTable = { IRPYRawContainer 
 	- size = 10;
-	- value = "D:\\Users\\guilherme\\Documents\\University\\Current Semester\\IM420_O\\IM420O\\sysml\\Semaphore\\Projects.rpl" ""
+	- value = "Projects.rpl" ""
 	"counting_semaphore.rpy" ""
 	"counting_semaphore_rpy\\Default.sbs" "Default"
 	"counting_semaphore_rpy\\DefaultComponent.cmp" "DefaultComponent"

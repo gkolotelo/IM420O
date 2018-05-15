@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID 705b8b30-7aa5-4354-89df-c326bb07233f;
 	- _myState = 8192;
 	- _name = "task_deleter";
-	- _objectCreation = "571432326312018191614457";
+	- _objectCreation = "231818715312018913633523";
 	- _umlDependencyID = "2864";
-	- weakCGTime = 4.26.2018::22:31:43;
+	- weakCGTime = 5.15.2018::13:27:7;
 	- strongCGTime = 4.26.2018::20:36:19;
 	- _defaultComposite = GUID 2e399f7a-5fd6-4864-b688-d68b19b6ba90;
 	- _eventsBaseID = -1;
@@ -24,10 +24,10 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 2e399f7a-5fd6-4864-b688-d68b19b6ba90;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "571432526312018191612457";
+			- _objectCreation = "231818915312018913631523";
 			- _umlDependencyID = "2404";
-			- weakCGTime = 4.26.2018::22:31:43;
-			- strongCGTime = 12.31.1969::22:0:0;
+			- weakCGTime = 5.15.2018::13:27:7;
+			- strongCGTime = 4.26.2018::20:36:19;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -39,8 +39,11 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- _id = GUID 3258eeff-b985-4f91-a4e9-a655f74b16d5;
 					- _myState = 8192;
 					- _name = "task_deleter_entry";
-					- _objectCreation = "571432726312018191610457";
+					- _objectCreation = "231819115312018913629523";
 					- _umlDependencyID = "3521";
+					- _description = { IDescription 
+						- _text = "Executes after 11s non-blocking delay";
+					}
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -79,8 +82,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 							}
 						}
 						- _name = "task_deleter_entry";
-						- _objectCreation = "571432926312018191608457";
-						- _umlDependencyID = "3530";
+						- _objectCreation = "231819315312018913627523";
+						- _umlDependencyID = "3521";
 						- Dependencies = { IRPYRawContainer 
 							- size = 2;
 							- value = 
@@ -88,7 +91,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 								- _id = GUID 423be208-2700-45a1-a3ae-a98397376dcb;
 								- _myState = 2048;
 								- _name = "GreenLED";
-								- _objectCreation = "571433126312018191606457";
+								- _objectCreation = "231819515312018913625523";
 								- _umlDependencyID = "2303";
 								- _dependsOn = { INObjectHandle 
 									- _m2Class = "IClass";
@@ -103,7 +106,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 								- _id = GUID 1618cb80-f660-4a10-8919-892644ee9666;
 								- _myState = 2048;
 								- _name = "blue_led_mutex_handle";
-								- _objectCreation = "571433326312018191604457";
+								- _objectCreation = "231819715312018913623523";
 								- _umlDependencyID = "3794";
 								- _dependsOn = { INObjectHandle 
 									- _m2Class = "IClass";
@@ -267,7 +270,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 									}
 								}
 								- _name = "task_deleter_sequence";
-								- _objectCreation = "571433526312018191602457";
+								- _objectCreation = "231819915312018913621523";
 								- _umlDependencyID = "3816";
 								- _lastModifiedTime = "4.26.2018::22:31:43";
 								- _graphicChart = { CGIMscChart 
@@ -758,16 +761,16 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 								}
 								- m_pICollaboration = { ICollaboration 
 									- _id = GUID 57ec48f8-f7d4-4517-9be8-313e6d67aa69;
-									- _objectCreation = "571433726312018191600457";
-									- _umlDependencyID = "1593";
+									- _objectCreation = "231820115312018913619523";
+									- _umlDependencyID = "1584";
 									- ClassifierRoles = { IRPYRawContainer 
 										- size = 4;
 										- value = 
 										{ IClassifierRole 
 											- _id = GUID 0d2aba25-f45d-464a-ae44-5f4cdae4c089;
 											- _name = "task_deleter_entry";
-											- _objectCreation = "571433926312018191598457";
-											- _umlDependencyID = "3539";
+											- _objectCreation = "231820315312018913617523";
+											- _umlDependencyID = "3512";
 											- m_eRoleType = CLASS;
 											- m_pBase = { IHandle 
 												- _m2Class = "IClass";
@@ -781,8 +784,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 										{ IClassifierRole 
 											- _id = GUID fe81e33e-acb7-40f6-8445-c5ad00c97a22;
 											- _name = "GreenLED";
-											- _objectCreation = "571434126312018191596457";
-											- _umlDependencyID = "2312";
+											- _objectCreation = "231820515312018913615523";
+											- _umlDependencyID = "2294";
 											- m_eRoleType = CLASS;
 											- m_pBase = { IHandle 
 												- _m2Class = "IClass";
@@ -804,8 +807,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 										{ IClassifierRole 
 											- _id = GUID 3db49dfe-dc0a-4bf6-8dc8-9cf0aec05406;
 											- _name = "blue_led_mutex_handle";
-											- _objectCreation = "571434326312018191594457";
-											- _umlDependencyID = "3803";
+											- _objectCreation = "231820715312018913613523";
+											- _umlDependencyID = "3785";
 											- m_eRoleType = CLASS;
 											- m_pBase = { IHandle 
 												- _m2Class = "IClass";
@@ -827,8 +830,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 										{ IClassifierRole 
 											- _id = GUID 608fbdde-c5f1-4749-8b0d-93506d4ad9a1;
 											- _name = "scheduler";
-											- _objectCreation = "571434526312018191592457";
-											- _umlDependencyID = "2561";
+											- _objectCreation = "231820915312018913611523";
+											- _umlDependencyID = "2543";
 											- m_eRoleType = CLASS;
 											- m_pBase = { IHandle 
 												- _m2Class = "IClass";
@@ -855,8 +858,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 											- _id = GUID 0f67ed00-e2c3-40f1-9f01-88e16648b578;
 											- _myState = 8192;
 											- _name = "OSA_MutexLock";
-											- _objectCreation = "571434726312018191590457";
-											- _umlDependencyID = "2848";
+											- _objectCreation = "231821115312018913609523";
+											- _umlDependencyID = "2830";
 											- m_szSequence = "1.";
 											- m_szActualArgs = "&blue_led_mutex_handle,OSA_WAIT_FOREVER";
 											- m_szReturnVal = "";
@@ -891,8 +894,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 											- _id = GUID 4425b711-ddde-456b-bd5b-7dd1f5ef55df;
 											- _myState = 8192;
 											- _name = "OSA_MutexDestroy";
-											- _objectCreation = "571434926312018191588457";
-											- _umlDependencyID = "3210";
+											- _objectCreation = "231821315312018913607523";
+											- _umlDependencyID = "3183";
 											- m_szSequence = "2.";
 											- m_szActualArgs = "&blue_led_mutex_handle";
 											- m_szReturnVal = "";
@@ -921,8 +924,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 										{ IMessage 
 											- _id = GUID 9b8312b0-3446-4506-9a91-8263355a7e82;
 											- _name = "ledrgb_setGreenLed";
-											- _objectCreation = "571435126312018191586457";
-											- _umlDependencyID = "3427";
+											- _objectCreation = "231821515312018913605523";
+											- _umlDependencyID = "3409";
 											- m_szSequence = "3.";
 											- m_szActualArgs = "";
 											- m_szReturnVal = "";
@@ -957,8 +960,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 											- _id = GUID fb146f29-ec74-47d7-a01d-d7005a646074;
 											- _myState = 8192;
 											- _name = "OSA_TaskDestroy";
-											- _objectCreation = "571435326312018191584457";
-											- _umlDependencyID = "3073";
+											- _objectCreation = "231821715312018913603523";
+											- _umlDependencyID = "3055";
 											- m_szSequence = "4.";
 											- m_szActualArgs = "task_blue_LED_OFF_task_handler";
 											- m_szReturnVal = "";
@@ -993,8 +996,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 											- _id = GUID fa731ef3-4c3a-4811-9883-afab93be8792;
 											- _myState = 8192;
 											- _name = "OSA_TaskDestroy";
-											- _objectCreation = "571435526312018191582457";
-											- _umlDependencyID = "3073";
+											- _objectCreation = "231821915312018913601523";
+											- _umlDependencyID = "3055";
 											- m_szSequence = "5.";
 											- m_szActualArgs = "task_blue_LED_ON_task_handler";
 											- m_szReturnVal = "";
